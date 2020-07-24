@@ -1,0 +1,28 @@
+.calendar-list {
+  padding-top: 50px;
+  .title {
+    font-family: FZLTZHJW--GB1-0;
+    font-size: 30px;
+    color: #252B3A;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .example {
+    width: 500px;
+    margin: 59px auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+    .example-item {
+      width: 68px;
+      vertical-align: middle;
+      .color-block {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        background-color: #ECB7D3;
+        margin-right: 8px;
+      }
+    }
+  }
+}

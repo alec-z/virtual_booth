@@ -1,0 +1,55 @@
+.calendar-item {
+  display: flex;
+  align-items: stretch;
+  .time {
+    padding-top: 19px;
+    font-family: FZLTHK--GBK1-0;
+    font-size: 16px;
+    color: #252B3A;
+    width: 90px;
+    text-align: center;
+  }
+  .divider {
+    width: 1px;
+    border-right: 1px dashed #666666;
+    .circle {
+      margin-top: 25px;
+      margin-left: -2px;
+      top: 20px;
+      left: -1px;
+      width: 6px;
+      height: 6px;
+      background: #FFFFFF;
+      border-radius: 4px;
+      border: 1px solid #666666;
+    }
+  }
+  .meeting-scope {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    .meeting {
+      padding-top: 19px;
+      padding-left: 21px;
+      padding-right: 32px;
+      background: #C1EEF1;
+      border-radius: 4px;
+      border-radius: 4px;
+      .title {
+        font-family: FZLTCHJW--GB1-0;
+        font-size: 16px;
+        color: #252B3A;
+        height: 20px;
+        line-height: 20px;
+      }
+      .detail {
+        margin-top: 9px;
+        font-family: FZLTHK--GBK1-0;
+        font-size: 14px;
+        color: #666666;
+        line-height: 22px;
+      }
+
+  }
+
+  }
+}

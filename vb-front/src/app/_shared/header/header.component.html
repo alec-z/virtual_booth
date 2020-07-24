@@ -1,0 +1,17 @@
+<div class="header">
+  <div class="top-logo" [ngStyle]="{'background-image': 'url('+ logo  +')'}">
+
+  </div>
+  <div class="desc">
+    <div class="main-title">
+      {{title}}
+    </div>
+    <div class="main-sub-title">
+      {{subTitle}}
+    </div>
+    <div class="detail" [innerHTML]="detail | tohtml">
+
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,30 @@
+.show-block {
+  margin-top: 30px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  margin-left: 130px;
+  margin-right: 130px;
+  height: auto;
+  .title {
+    font-family: FZLTZHJW--GB1-0;
+    font-size: 30px;
+    color: #333333;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .detail {
+    font-family: FZLTHK--GBK1-0;
+    font-size: 18px;
+    color: #666666;
+    margin-top: 34px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .block {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+}
