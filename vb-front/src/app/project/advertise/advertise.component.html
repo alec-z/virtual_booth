@@ -1,10 +1,12 @@
-<div class="advertise">
-  <div class="inner">
-    <div class="logo">
-
-    </div>
-    <div class="title">
-      社区官网
+<a [href]="outerLink" target="_blank">
+  <div class="advertise">
+    <div class="inner">
+      <div class="logo">
+        <img [src]="logo"/>
+      </div>
+      <div class="title">
+        {{ title }}
+      </div>
     </div>
   </div>
-</div>
+</a>

@@ -2,9 +2,9 @@
   height: 440px;
   padding-top: 90px;
   .left {
-    width: 400px;
+    width: 560px;
     float: left;
-    margin-left: 180px;
+    margin-left: 120px;
     .logo {
       width: 200px;
       height: 200px;
@@ -24,6 +24,7 @@
       color: #666666;
       margin-top: 27px;
       line-height: 30px;
+      text-align: center;
     }
   }
   .right {
@@ -32,5 +33,6 @@
     font-size: 18px;
     color: #333333;
     line-height: 35px;
+    margin-right: 100px;
   }
 }

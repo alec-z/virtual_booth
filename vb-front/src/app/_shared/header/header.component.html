@@ -1,6 +1,6 @@
 <div class="header">
-  <div class="top-logo" [ngStyle]="{'background-image': 'url('+ logo  +')'}">
-
+  <div class="top-logo">
+    <img [src]="logo" style="width:196px"/>
   </div>
   <div class="desc">
     <div class="main-title">
@@ -8,6 +8,11 @@
     </div>
     <div class="main-sub-title">
       {{subTitle}}
+    </div>
+    <div class="actions" *ngIf="project">
+      <a class="github-button" [href]="'https://github.com/'+project" data-icon="octicon-star" data-show-count="true">Star</a>&nbsp;&nbsp;&nbsp;
+      <a class="github-button" [href]="'https://github.com/'+project +'/fork'" data-icon="octicon-repo-forked" data-show-count="true">Fork</a>&nbsp;&nbsp;&nbsp;
+      <a class="github-button" [href]="'https://github.com/'+project + '/subscription' " data-icon="octicon-eye" data-show-count="true">Watch</a>&nbsp;&nbsp;&nbsp;
     </div>
     <div class="detail" [innerHTML]="detail | tohtml">
 

@@ -11,6 +11,7 @@ export class HeaderComponent implements OnInit {
   @Input() detail: string;
   @Input() logo: string;
   @Input() backgroundImage: string;
+  @Input() project: string;
   constructor() { }
 
   ngOnInit(): void {
