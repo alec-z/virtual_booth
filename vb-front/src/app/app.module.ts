@@ -20,6 +20,7 @@ import { PromoteProjectReverseComponent } from './home/promote-project-reverse/p
 import { CourseComponent } from './project/course/course.component';
 import { VideoComponent } from './project/video/video.component';
 import { AdvertiseComponent } from './project/advertise/advertise.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { AdvertiseComponent } from './project/advertise/advertise.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

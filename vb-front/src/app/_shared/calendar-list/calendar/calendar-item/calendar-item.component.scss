@@ -25,14 +25,26 @@
     }
   }
   .meeting-scope {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     padding-left: 20px;
     .meeting {
       padding-top: 19px;
-      padding-bottom: 14px;
+      padding-bottom: 16px;
       padding-left: 21px;
       padding-right: 32px;
-      background: #C1EEF1;
+      background-color: #C1EEF1;
+      &.type1 {
+        background-color: #C1EEF1;
+      }
+      &.type2 {
+        background-color: #B6C7F6;
+      }
+      &.type3 {
+        background-color: #B2E4E7;
+      }
+      &.type4 {
+        backgorund-color: #F8DEA3;
+      }
       border-radius: 4px;
       border-radius: 4px;
       .title {

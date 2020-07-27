@@ -1,31 +1,21 @@
-<app-header [title]="data.header.title" [subTitle]="data.header.subTitle" [detail]="data.header.detail" logo="/assets/image/kubeedge-horizontal-color.png" project="apache/servicecomb-java-chassis">
+<app-header [title]="data.header.title" [subTitle]="data.header.subTitle" [detail]="data.header.detail" [logo]="data.header.logo" [project]="data.header.project">
 </app-header>
 <div class="main-info">
-  <app-main-info logo="/assets/image/kubeedge-icon-color.png" title="KubeEdge" simpleDetail="一个使能边缘计算的开放平台">
+  <app-main-info [logo]="data.mainInfo.logo" [title]="data.mainInfo.title" [simpleDetail]="data.mainInfo.simpleDetail">
   </app-main-info>
 </div>
-<app-show-block title="通用教程模块" detail="面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore">
-  <app-course image="/assets/image/simple.jpg" detail="面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"></app-course>
-  <app-course image="/assets/image/simple.jpg" detail="面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"></app-course>
-  <app-course image="/assets/image/simple.jpg" detail="面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"></app-course>
+<app-show-block [title]="data.courseShowBlock.title" [detail]="data.courseShowBlock.detail">
+  <app-course *ngFor="let item of data.courseShowBlock.items" [image]="item.image" [detail]="item.detail"></app-course>
+</app-show-block>
+
+<app-show-block [title]="data.videoShowBlock.title" [detail]="data.videoShowBlock.detail">
+  <app-video *ngFor="let item of data.videoShowBlock.items" [video]="item.video"></app-video>
 
 </app-show-block>
 
-<app-show-block title="最新视频" detail="面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore">
-  <app-video></app-video>
-  <app-video></app-video>
-  <app-video></app-video>
+<app-show-block [title]="data.advertiseShowBlock.title" [detail]="data.advertiseShowBlock.detail">
+  <app-advertise *ngFor="let item of data.advertiseShowBlock.items" [logo]="item.logo" [title]="item.title" [outerLink]="item.outerLink"></app-advertise>
 </app-show-block>
-
-<app-show-block title="加入我们" detail="面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore">
-  <app-advertise logo="/assets/image/kubeedge-icon-color.png" title="社区官网" outerLink="https://servicecomb.apache.org"></app-advertise>
-  <app-advertise logo="/assets/image/iconfinder_Internet_Line-11_1587496.png" title="源码地址"></app-advertise>
-  <app-advertise logo="/assets/image/iconfinder_email-marketing_2944885.png" title="邮件列表"></app-advertise>
-</app-show-block>
-
 <div class="calendar-scope">
-  <app-calendar>
-  </app-calendar>
-  <app-calendar>
-  </app-calendar>
+<app-calendar-list [calendars]="data.calendars"></app-calendar-list>
 </div>

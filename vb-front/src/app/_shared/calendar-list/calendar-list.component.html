@@ -20,10 +20,6 @@
       类型4
     </div>
   </div>
-  <app-calendar>
-  </app-calendar>
-  <app-calendar>
-  </app-calendar>
-  <app-calendar>
+  <app-calendar *ngFor="let calendar of calendars" [calendar]="calendar">
   </app-calendar>
 </div>

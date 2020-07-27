@@ -11,6 +11,7 @@ export class NormalProjectComponent implements OnInit {
   @Input() title: string;
   @Input() detail: string;
 
+
   constructor() { }
 
   ngOnInit(): void {

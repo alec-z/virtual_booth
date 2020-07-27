@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {ActivatedRoute} from '@angular/router';
+import {HttpClient} from '@angular/common/http';
 
 @Component({
   selector: 'app-project',
@@ -6,19 +8,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./project.component.scss']
 })
 export class ProjectComponent implements OnInit {
+  data: any;
 
-  data = {
-    header: {
-      title: 'KubeEdge云端展厅',
-      subTitle: 'HUAWEI Sponsor Virtual Booth',
-      detail: '目前华为云云端展厅包括：KubeEdge，Volcano' +
-        'MindSpore，openEuler，openLooKeng，SODA，openGauss，ServiceComb'
-    }
-  }
-
-  constructor() { }
+  constructor(private route: ActivatedRoute, private http: HttpClient) { }
 
   ngOnInit(): void {
+    const projectName = this.route.snapshot.params['project-name'];
+    this.http.get('/assets/json/' + projectName + '.json').subscribe((data) => {
+      this.data = data;
+    });
   }
 
 }

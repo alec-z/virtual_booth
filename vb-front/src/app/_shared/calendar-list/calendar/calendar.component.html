@@ -1,11 +1,7 @@
 <div class="calendar">
   <div class="title">
-    07.20  星期三
+    {{calendar.dayStr}}
   </div>
-<app-calendar-item>
-
-</app-calendar-item>
-<app-calendar-item>
-
+<app-calendar-item *ngFor="let item of calendar.items" [calendarItem]="item">
 </app-calendar-item>
 </div>
