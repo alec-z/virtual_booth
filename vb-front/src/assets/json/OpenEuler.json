@@ -1,88 +1,74 @@
 {
   "header": {
-    "title": "KubeEdge云端展厅",
-    "subTitle": "HUAWEI Sponsor Virtual Booth",
-    "detail": "目前华为云云端展厅包括：KubeEdge，Volcano,MindSpore，openEuler，openLooKeng，SODA，openGauss，ServiceComb",
-    "logo": "/assets/image/kubeedge-horizontal-color.png",
+    "title": "openEuler云端展厅",
+    "subTitle": "openEuler - The Most Innovated OS Open Source Community",
+    "detail": "openEuler是一个开源、免费的Linux发行版平台，将通过开放的社区形式与全球的开发者共同构建一个开放、多元和架构包容的软件生态体系。同时，openEuler也是一个创新的平台，鼓励任何人在该平台上提出新想法、开拓新思路、实践新方案。",
+    "logo": "/assets/image/openEuler.png",
     "project": "apache/service-java-chassis",
     "banner": "/assets/image/banner2.png"
   },
-  "mainInfo": {
-    "logo": "/assets/image/kubeedge-icon-color.png",
-    "title": "KubeEdge",
-    "simpleDetail": "一个使能边缘计算的开放平台"
-  },
   "courseShowBlock": {
     "title": "通用教程模块",
-    "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
+    "detail": "详细攻略教您如何使用openEuler，如何参与社区贡献",
     "items": [
       {
-        "image": "/assets/image/simple.jpg",
-        "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"
+        "image": "/assets/image/openEuler-guide1.png",
+        "detail": "如果您想尝试使用openEuler，这里提供教程助您快速入门。"
       },
       {
-        "image": "/assets/image/simple.jpg",
-        "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"
+        "image": "/assets/image/openEuler-guide 2.png",
+        "detail": "不管您是初学者还是有经验的开发者，这里将帮助您快速参与贡献。"
       },
       {
-        "image": "/assets/image/simple.jpg",
-        "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"
-      }
-    ]
-  },
-  "videoShowBlock": {
-    "title": "通用教程模块",
-    "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
-    "items": [
-      {
-        "video": "/assets/video/demo.mp4"
-      },
-      {
-        "video": "/assets/video/demo.mp4"
-      },
-      {
-        "video": "/assets/video/demo.mp4"
+        "image": "/assets/image/openEuler-guide3.png",
+        "detail": "将您的驱动、中间件和应用与openEuler进行集成及认证。"
       }
     ]
   },
   "advertiseShowBlock": {
     "title": "通用教程模块",
-    "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
+    "detail": "欢迎通过以下方式认识openEuler，加入openEuler社区",
     "items": [
       {
-        "logo": "/assets/image/kubeedge-icon-color.png",
+        "logo": "/assets/image/openEuler.png",
         "title": "社区官网",
-        "outerLink": "https://servicecomb.apache.org"
+        "outerLink": "https://openeuler.org"
       },
       {
         "logo": "/assets/image/iconfinder_Internet_Line-11_1587496.png",
-        "title": "最新视频",
-        "outerLink": "https://servicecomb.apache.org"
+        "title": "源码地址",
+        "outerLink": "https://gitee.com/openeuler"
       },
       {
         "logo": "/assets/image/iconfinder_email-marketing_2944885.png",
-        "title": "加入我们",
-        "outerLink": "https://servicecomb.apache.org"
+        "title": "邮件列表",
+        "outerLink": "https://openeuler.org/zh/community/mails.html"
       }
     ]
   },
   "calendars": [
     {
-      "dayStr": "07.20  星期三",
+      "dayStr": "07.30  星期四",
       "items": [
         {
-          "time": "17：00",
-          "title": "会议session",
-          "detail": "【JustinMind培训赋能第二期】主讲人：谢巧华；胡福；时间：2020年7月21日（周二）19:00-21:00；地点：U8-2-A08R；其他地域语音。",
+          "time": "10：00",
+          "title": "iSulad轻量级容器引擎的裸金属实践",
+          "detail": "主讲人：蔡灏旻 ，多年容器、操作系统研发经验，对容器、kubernetes、云原生等领域有深入的研究，现任iSula容器团队架构师，带领团队研发iSula容器解决方案，其中轻量级容器引擎iSulad等已经在openEuler开源；在openEuler社区担任架构设计委员会（AC）成员，推出Kata容器首个鲲鹏架构发行版；openEuler社区内担任iSula、Container、Golang等多个SIG组Maintainer。",
           "meetingType": "type1",
           "outerLink": ""
         },
         {
-          "time": "17：00",
-          "title": "会议session",
-          "detail": "【JustinMind培训赋能第二期】主讲人：谢巧华；胡福；时间：2020年7月21日（周二）19:00-21:00；地点：U8-2-A08R；其他地域语音。",
+          "time": "10：40",
+          "title": "如何进一步加强容器安全启动",
+          "detail": "主讲人：卢景晓，十余年新基建从业经验，对NFVI容器化等有深入理解，现任iSula容器团队高级工程师，容器镜像、构建专家，作为project leader带领团队研发isula-build镜像构建工具，深度参与moby、contaienrd、runc、containers、kata等多个社区，openEuler社区内担任iSula SIG maintainer",
           "meetingType": "type2",
           "outerLink": ""
+        }
+        {
+          "time": "11：20",
+          "title": "Java垃圾回收技术的现状与趋势",
+          "detail": "主讲人：彭成寒，13年从业经验，GC技术专家，现任华为JDK团队架构师，著有《JVM G1源码分析和调优》《新一代垃圾回收器ZGC的设计与实现》",
+          "meetingType": "type3"
         }
       ]
     }
