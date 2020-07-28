@@ -3,7 +3,7 @@
     "title": "Volcano云端展厅",
     "subTitle": "HUAWEI Sponsor Virtual Booth",
     "detail": "目前华为云云端展厅包括：KubeEdge，Volcano,MindSpore，openEuler，openLooKeng，openGauss，SODA，ServiceComb",
-    "logo": "/assets/image/volcano_batch_compute.PNG",
+    "logo": "/assets/image/volcano-horizontal-white.png",
     "project": "apache/service-java-chassis",
     "banner": "/assets/image/banner2.png"
   },
@@ -82,9 +82,8 @@
       "items": [
         {
           "time": "15：40",
-          "title": "以AI和大数据为例，将批处理功能引入Kubernetes",
+          "title": "【闪电演讲】以AI和大数据为例，将批处理功能引入Kubernetes",
           "detail": "主讲人：马达；时间：2020年7月30日（周四）15:40-15:55",
-
           "meetingType": "type1",
           "outerLink": "http://www.itdks.com/Home/Act/apply?id=5235"
         }
@@ -97,7 +96,6 @@
           "time": "17：00",
           "title": "深入了解：Volcano",
           "detail": "主讲人：马达，徐中虎；时间：2020年7月31日（周五）17:00-17:30",
-
           "meetingType": "type3",
           "outerLink": "http://www.itdks.com/Home/Act/apply?id=5242"
         }
