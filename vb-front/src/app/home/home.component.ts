@@ -137,6 +137,13 @@ export class HomeComponent implements OnInit {
           outerLink: 'http://www.itdks.com/Home/Act/apply?id=5239'
         },
         {
+          time: '20:10',
+          title: '【闪电演讲】使用SODA和CSI进行卷扩容的最佳实践',
+          detail: '主讲人：刘羽，华为高级软件工程师，SODA资深开发者；时间：20:10-20:25',
+          meetingType: 'type1',
+          outerLink: 'http://www.itdks.com/Home/Act/apply?id=5239'
+        },
+        {
           time: '21:30',
           title: 'Kubernetes SIG Instrumentation深入剖析集群监控',
           detail: '主讲人：任洪彩，华为云高级软件工程师；时间：21:30-22:00',
