@@ -31,7 +31,7 @@
     ]
   },
   "videoShowBlock": {
-    "title": "通用教程模块",
+    "title": "最新视频",
     "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
     "items": [
       {
@@ -49,7 +49,7 @@
     ]
   },
   "advertiseShowBlock": {
-    "title": "通用教程模块",
+    "title": "加入我们",
     "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
     "items": [
       {
@@ -59,12 +59,12 @@
       },
       {
         "logo": "/assets/image/iconfinder_Internet_Line-11_1587496.png",
-        "title": "最新视频",
+        "title": "源码地址",
         "outerLink": "https://servicecomb.apache.org"
       },
       {
         "logo": "/assets/image/iconfinder_email-marketing_2944885.png",
-        "title": "加入我们",
+        "title": "邮件列表",
         "outerLink": "https://servicecomb.apache.org"
       }
     ]

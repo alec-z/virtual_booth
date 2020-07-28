@@ -26,7 +26,7 @@
     ]
   },
   "advertiseShowBlock": {
-    "title": "通用教程模块",
+    "title": "加入我们",
     "detail": "欢迎通过以下方式认识openEuler，加入openEuler社区",
     "items": [
       {
@@ -63,7 +63,7 @@
           "detail": "主讲人：卢景晓，十余年新基建从业经验，对NFVI容器化等有深入理解，现任iSula容器团队高级工程师，容器镜像、构建专家，作为project leader带领团队研发isula-build镜像构建工具，深度参与moby、contaienrd、runc、containers、kata等多个社区，openEuler社区内担任iSula SIG maintainer",
           "meetingType": "type2",
           "outerLink": ""
-        }
+        },
         {
           "time": "11：20",
           "title": "Java垃圾回收技术的现状与趋势",
