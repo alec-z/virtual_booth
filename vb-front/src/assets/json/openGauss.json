@@ -40,13 +40,15 @@
           "time": "09:30",
           "title": "自建社区？你要的容器基础设施都在这里",
           "detail": "主讲人：向新勇  时间：09:30-10:00",
-          "meetingType": "type1"
+          "meetingType": "type1",
+          "outerLink": ""
         },
         {
           "time": "10：10",
           "title": "Memory Optimized Tables(MOT) of openGauss DB for extreme performace",
           "detail": "主讲人：Vinoth Veeraraghavan  时间：10:10-10:40",
-          "meetingType": "type1"
+          "meetingType": "type1",
+          "outerLink": ""
         }
       ]
     }

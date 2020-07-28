@@ -10,9 +10,6 @@
       {{subTitle}}
     </div>
     <div class="actions" *ngIf="project">
-      <a class="github-button" [href]="'https://github.com/'+project" data-icon="octicon-star" data-show-count="true">Star</a>&nbsp;&nbsp;&nbsp;
-      <a class="github-button" [href]="'https://github.com/'+project +'/fork'" data-icon="octicon-repo-forked" data-show-count="true">Fork</a>&nbsp;&nbsp;&nbsp;
-      <a class="github-button" [href]="'https://github.com/'+project + '/subscription' " data-icon="octicon-eye" data-show-count="true">Watch</a>&nbsp;&nbsp;&nbsp;
     </div>
     <div class="detail" [innerHTML]="detail | tohtml">
 
