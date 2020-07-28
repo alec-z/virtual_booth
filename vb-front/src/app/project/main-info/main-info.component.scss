@@ -8,8 +8,10 @@
     .logo {
       width: 200px;
       height: 200px;
-      background-size: 200px 200px;
+      background-size: auto auto;
+      background-position: center center;
       margin: 0 auto;
+      background-repeat: no-repeat;
     }
     .title {
       font-size: 40px;

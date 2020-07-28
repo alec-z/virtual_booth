@@ -8,7 +8,23 @@ import {HttpClient} from '@angular/common/http';
   styleUrls: ['./project.component.scss']
 })
 export class ProjectComponent implements OnInit {
-  data: any;
+  data: any ={
+    header: {
+    },
+    mainInfo: {
+    },
+    courseShowBlock: {
+      items: []
+    },
+    videoShowBlock: {
+      items: []
+    },
+    advertiseShowBlock: {
+      items: []
+    },
+    calendars: []
+
+  };
 
   constructor(private route: ActivatedRoute, private http: HttpClient) { }
 
