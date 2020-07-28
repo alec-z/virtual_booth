@@ -13,7 +13,7 @@
     "simpleDetail": "一个使能边缘计算的开放平台"
   },
   "courseShowBlock": {
-    "title": "通用教程模块",
+    "title": "通用教程",
     "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
     "items": [
       {
@@ -35,15 +35,15 @@
     "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
     "items": [
       {
-        "image": "",
+        "image": "/assets/image/simple.jpg",
+        "video": "http://servicecomb.apache.org"
+      },
+      {
+        "image": "/assets/image/simple.jpg",
         "video": "/assets/video/demo.mp4"
       },
       {
-        "image": "",
-        "video": "/assets/video/demo.mp4"
-      },
-      {
-        "image": "",
+        "image": "/assets/image/simple.jpg",
         "video": "/assets/video/demo.mp4"
       }
     ]

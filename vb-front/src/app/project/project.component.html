@@ -10,7 +10,7 @@
 </app-show-block>
 
 <app-show-block [title]="data.videoShowBlock.title" [detail]="data.videoShowBlock.detail" *ngIf="data.videoShowBlock">
-  <app-video *ngFor="let item of data.videoShowBlock.items" [video]="item.video"></app-video>
+  <app-video *ngFor="let item of data.videoShowBlock.items" [video]="item.video" [image]="item.image"></app-video>
 
 </app-show-block>
 
