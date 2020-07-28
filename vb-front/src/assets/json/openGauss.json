@@ -3,14 +3,15 @@
     "title": "openGauss云端展厅",
     "subTitle": "HUAWEI Sponsor Virtual Booth",
     "detail": "目前华为云云端展厅包括：KubeEdge，Volcano，MindSpore，openEuler，openGauss，openLooKeng，SODA，ServiceComb",
-    "logo": "/assets/image/openGauss.png",
-    "project": "apache/service-java-chassis"
+    "logo": "/assets/image/openGauss-icon.png",
+    "project": "apache/service-java-chassis",
+    "banner": "/assets/image/openGauss-banner.png"
   },
   "mainInfo": {
-    "logo": "/assets/image/openGauss-icon.png",
+    "logo": "/assets/image/openGauss.png",
     "title": "openGauss",
     "simpleDetail": "把企业级的数据库能力带给用户",
-    "detail": ""
+    "detail": "openGauss是一款开源关系型数据库管理系统，采用木兰宽松许可证v2发行。openGauss内核源自PostgreSQL，深度融合华为在数据库领域多年的经验，结合企业级场景需求，持续构建竞争力特性。同时openGauss也是一个开源的数据库平台，鼓励社区贡献、合作。"
   },
   "advertiseShowBlock": {
     "title": "加入我们",
@@ -30,6 +31,14 @@
         "logo": "/assets/image/openGauss-github.png",
         "title": "镜像仓库",
         "outerLink": "https://github.com/opengauss-mirror"
+      },
+      {
+        "logo": "/assets/image/openGauss-wechat1.jpg",
+        "title": "微信公众号"
+      },
+      {
+        "logo": "/assets/image/openGauss-wechat2.jpg",
+        "title": "微信小助手"
       }
     ]
   },
@@ -45,8 +54,8 @@
           "outerLink": ""
         },
         {
-          "time": "10：10",
-          "title": "Memory Optimized Tables(MOT) of openGauss DB for extreme performace",
+          "time": "10:10",
+          "title": "openGauss：基于内存表(MOT)的极致性能探索和实践",
           "detail": "主讲人：Vinoth Veeraraghavan  时间：10:10-10:40",
           "meetingType": "type1",
           "outerLink": ""
