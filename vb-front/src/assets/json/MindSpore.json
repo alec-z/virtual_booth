@@ -1,91 +1,105 @@
 {
   "header": {
-    "title": "KubeEdge云端展厅",
-    "subTitle": "HUAWEI Sponsor Virtual Booth",
+    "title": "MindSpore云端展厅",
+    "subTitle": "MindSpore Virtual Booth",
     "detail": "目前华为云云端展厅包括：KubeEdge，Volcano,MindSpore，openEuler，openLooKeng，SODA，openGauss，ServiceComb",
-    "logo": "/assets/image/kubeedge-horizontal-color.png",
-    "project": "apache/service-java-chassis",
+    "logo": "/assets/image/MindSpore.png",
+    "project": "https://gitee.com/mindspore/mindspore",
     "banner": "/assets/image/banner2.png"
   },
   "mainInfo": {
-    "logo": "/assets/image/kubeedge-icon-color.png",
-    "title": "KubeEdge",
-    "simpleDetail": "一个使能边缘计算的开放平台"
+    "logo": "/assets/image/MindSpore.png",
+    "title": "MindSpore端边云全场景开源深度学习框架",
+    "simpleDetail": "MindSpore是一个开源的最佳匹配昇腾AI处理器算力的全场景深度学习框架，其提供统一的API，自动化分布式架构和源码自动微分能力，为数据科学家和算法工程师提供设计友好、运行高效的开发体验，实现更好的资源分配，推动AI软硬件应用生态繁荣发展。<br />使用MindSpore可以为用户提供简单的开发体验，只需串行表达就能实现并行训练，简化开发流程，还可以为用户提供灵活的调试模式，开发者仅需变更一行代码即可切换静态执行和动态调试模式，快速定位问题。同时，MindSpore充分发挥昇腾处理器性能，支持端边云全场景快速部署。\n"
   },
   "courseShowBlock": {
     "title": "通用教程",
     "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
     "items": [
       {
-        "image": "/assets/image/simple.jpg",
-        "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"
+        "image": "/assets/image/study_1.png",
+        "detail": "通过一个实际样例实现手写数字的识别，带领大家体验MindSpore基础的功能，一般来说，完成整个样例实践会持续20~30分钟。"
       },
       {
-        "image": "/assets/image/simple.jpg",
-        "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"
+        "image": "/assets/image/study_2.png",
+        "detail": "结合CIFAR-10数据集，讲解MindSpore如何处理图像分类任务。"
       },
       {
-        "image": "/assets/image/simple.jpg",
-        "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"
+        "image": "/assets/image/study_3.png",
+        "detail": "构建一个自然语言处理的模型，通过文本分析和推理实现情感分析，完成对文本的情感分类。"
       }
     ]
   },
   "videoShowBlock": {
-    "title": "最新视频",
-    "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
+    "title": "新手视频",
+    "detail": "查看更多新手视频 >",
     "items": [
       {
-        "image": "/assets/image/simple.jpg",
-        "video": "http://servicecomb.apache.org"
+        "image": "/assets/image/beginner_1.png",
+        "video": "https://mindspore-website.obs.cn-north-4.myhuaweicloud.com:443/teaching_video/video/%E6%89%8B%E6%8A%8A%E6%89%8B%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.mp4"
       },
       {
-        "image": "/assets/image/simple.jpg",
-        "video": "/assets/video/demo.mp4"
+        "image": "/assets/image/beginner_2.png",
+        "video": "https://mindspore-website.obs.cn-north-4.myhuaweicloud.com:443/teaching_video/video/%E6%A8%A1%E5%9E%8B%E5%8F%82%E6%95%B0%E7%9A%84%E4%BF%9D%E5%AD%98%E5%92%8C%E5%8A%A0%E8%BD%BD.mp4"
       },
       {
-        "image": "/assets/image/simple.jpg",
-        "video": "/assets/video/demo.mp4"
+        "image": "/assets/image/beginner_3.png",
+        "video": "https://mindspore-website.obs.cn-north-4.myhuaweicloud.com:443/teaching_video/video/%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B0%83%E8%AF%95.mp4"
       }
     ]
   },
   "advertiseShowBlock": {
     "title": "加入我们",
-    "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
+    "detail": "MindSpore诚挚邀请您的参与与贡献",
     "items": [
       {
-        "logo": "/assets/image/kubeedge-icon-color.png",
+        "logo": "/assets/image/MindSpore.png",
         "title": "社区官网",
-        "outerLink": "https://servicecomb.apache.org"
+        "outerLink": "https://www.mindspore.cn/"
       },
       {
         "logo": "/assets/image/iconfinder_Internet_Line-11_1587496.png",
         "title": "源码地址",
-        "outerLink": "https://servicecomb.apache.org"
+        "outerLink": "https://gitee.com/mindspore/mindspore"
       },
       {
         "logo": "/assets/image/iconfinder_email-marketing_2944885.png",
         "title": "邮件列表",
-        "outerLink": "https://servicecomb.apache.org"
+        "outerLink": "https://mailweb.mindspore.cn/hyperkitty/"
       }
     ]
   },
   "calendars": [
     {
-      "dayStr": "07.20  星期三",
+      "dayStr": "07.31  星期五",
       "items": [
         {
-          "time": "17：00",
-          "title": "会议session",
-          "detail": "【JustinMind培训赋能第二期】主讲人：谢巧华；胡福；时间：2020年7月21日（周二）19:00-21:00；地点：U8-2-A08R；其他地域语音。",
-          "meetingType": "type1",
+          "time": "10：00",
+          "title": "MindSpore and Webassembly",
+          "detail": "主讲人：王辉；时间：10:10-10:40",
+          "meetingType": "Co-Located Events",
           "outerLink": ""
         },
         {
-          "time": "17：00",
-          "title": "会议session",
-          "detail": "【JustinMind培训赋能第二期】主讲人：谢巧华；胡福；时间：2020年7月21日（周二）19:00-21:00；地点：U8-2-A08R；其他地域语音。",
-          "meetingType": "type2",
+          "time": "10：40",
+          "title": "eBPF assited AI Oberservability with MindSpore and Prometheus",
+          "detail": "主讲人：何芦微；时间：10:40-11:20",
+          "meetingType": "Co-Located Events",
           "outerLink": ""
+        },
+        {
+          "time": "11：20",
+          "title": "Utilizing Kubeflow and Volcano for cloud native MindSpore offering",
+          "detail": "主讲人：刘烨东；时间：10:40-11:20",
+          "meetingType": "Co-Located Events",
+          "outerLink": ""
+        },
+        {
+          "time": "15：00",
+          "title": "MindSpore助力全新云与AI原生生态系统",
+          "detail": "主讲人：黄之鹏；时间：15:00-15:15",
+          "meetingType": "Keynote Sessions",
+          "outerLink": "http://www.itdks.com/Home/Act/apply?id=5239&mUid=10236"
         }
       ]
     }
