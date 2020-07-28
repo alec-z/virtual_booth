@@ -8,10 +8,9 @@ import {Component, Input, OnInit} from '@angular/core';
 export class CourseComponent implements OnInit {
   @Input() image: string;
   @Input() detail: string;
-
+  @Input() outerLink: string;
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }

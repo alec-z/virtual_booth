@@ -8,6 +8,8 @@ import {Component, Input, OnInit} from '@angular/core';
 export class ShowBlockComponent implements OnInit {
   @Input() title: string;
   @Input() detail: string;
+  @Input() titleOuterLink: string;
+  @Input() detailOuterLink: string;
 
   constructor() { }
 

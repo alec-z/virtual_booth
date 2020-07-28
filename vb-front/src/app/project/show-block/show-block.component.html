@@ -1,7 +1,11 @@
 <div class="show-block">
-  <div class="title">{{title}}</div>
+  <div class="title">
+    <a [href]="titleOuterLink" target="_blank" *ngIf="titleOuterLink">{{title}}</a>
+    <ng-template [ngIf]="!titleOuterLink">{{title}}</ng-template>
+  </div>
   <div class="detail">
-    {{detail}}
+    <a [href]="detailOuterLink" target="_blank" *ngIf="detailOuterLink">{{detail}}</a>
+    <ng-template [ngIf]="!detailOuterLink">{{detail}}</ng-template>
   </div>
   <div class="block">
     <ng-content></ng-content>

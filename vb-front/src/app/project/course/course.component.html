@@ -1,9 +1,18 @@
 <div class="course">
-  <div class="figure">
-    <img [src]= "image" style="width: 340px;"/>
-
-  </div>
-  <div class="detail">
-    {{ detail }}
-  </div>
+  <a [href]="outerLink" target="_blank" *ngIf="outerLink">
+    <div class="figure">
+      <img [src]="image" style="width: 340px;"/>
+    </div>
+    <div class="detail">
+      {{ detail }}
+    </div>
+  </a>
+  <ng-template [ngIf]="!outerLink">
+    <div class="figure">
+      <img [src]="image" style="width: 340px;"/>
+    </div>
+    <div class="detail">
+      {{ detail }}
+    </div>
+  </ng-template>
 </div>
