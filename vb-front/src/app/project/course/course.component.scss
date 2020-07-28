@@ -5,10 +5,15 @@
   border: 1px solid #BFBFBF;
   border-radius: 4px;
   border-radius: 4px;
+  margin-bottom: 20px;
   .figure {
     height: 184px;
   }
   .detail {
     padding: 20px;
   }
+  a .detail {
+    color: #000000;
+  }
+
 }

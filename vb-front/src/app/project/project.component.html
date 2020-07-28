@@ -23,3 +23,6 @@
 <div class="calendar-scope">
 <app-calendar-list [calendars]="data.calendars"></app-calendar-list>
 </div>
+<app-show-block [title]="data.m1ShowBlock.title" [detail]="data.m1ShowBlock.detail" [titleOuterLink]="data.m1ShowBlock.titleOuterLink" [detailOuterLink]="data.m1ShowBlock.detailOuterLink"  *ngIf="data.m1ShowBlock">
+  <app-general-item *ngFor="let item of data.m1ShowBlock.items" [image]="item.image" [outerLink]="item.outerLink" style="flex: 0 0 40%"></app-general-item>
+</app-show-block>

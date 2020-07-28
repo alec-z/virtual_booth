@@ -10,9 +10,7 @@ export class ShowBlockComponent implements OnInit {
   @Input() detail: string;
   @Input() titleOuterLink: string;
   @Input() detailOuterLink: string;
-
   constructor() { }
-
   ngOnInit(): void {
   }
 
