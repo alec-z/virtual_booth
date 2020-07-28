@@ -8,20 +8,20 @@
     "banner": "/assets/image/banner2.png"
   },
   "courseShowBlock": {
-    "title": "通用教程模块",
+    "title": "通用教程",
     "detail": "详细攻略教您如何使用openEuler，如何参与社区贡献",
     "items": [
       {
-        "image": "/assets/image/openEuler-guide1.png",
-        "detail": "如果您想尝试使用openEuler，这里提供教程助您快速入门。"
+        "image": "/assets/image/simple.jpg",
+        "video": "http://servicecomb.apache.org"
       },
       {
-        "image": "/assets/image/openEuler-guide 2.png",
-        "detail": "不管您是初学者还是有经验的开发者，这里将帮助您快速参与贡献。"
+        "image": "/assets/image/simple.jpg",
+        "video": "/assets/video/demo.mp4"
       },
       {
-        "image": "/assets/image/openEuler-guide3.png",
-        "detail": "将您的驱动、中间件和应用与openEuler进行集成及认证。"
+        "image": "/assets/image/simple.jpg",
+        "video": "/assets/video/demo.mp4"
       }
     ]
   },

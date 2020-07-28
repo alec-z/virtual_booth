@@ -13,7 +13,7 @@
     "simpleDetail": "一个使能边缘计算的开放平台"
   },
   "courseShowBlock": {
-    "title": "通用教程模块",
+    "title": "通用教程",
     "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
     "items": [
       {
@@ -50,19 +50,16 @@
     "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
     "items": [
       {
-        "logo": "/assets/image/kubeedge-icon-color.png",
-        "title": "社区官网",
-        "outerLink": "https://servicecomb.apache.org"
+        "image": "/assets/image/simple.jpg",
+        "video": "http://servicecomb.apache.org"
       },
       {
-        "logo": "/assets/image/iconfinder_Internet_Line-11_1587496.png",
-        "title": "源码地址",
-        "outerLink": "https://servicecomb.apache.org"
+        "image": "/assets/image/simple.jpg",
+        "video": "/assets/video/demo.mp4"
       },
       {
-        "logo": "/assets/image/iconfinder_email-marketing_2944885.png",
-        "title": "邮件列表",
-        "outerLink": "https://servicecomb.apache.org"
+        "image": "/assets/image/simple.jpg",
+        "video": "/assets/video/demo.mp4"
       }
     ]
   },
