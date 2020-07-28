@@ -10,7 +10,7 @@ export class HeaderComponent implements OnInit {
   @Input() subTitle: string;
   @Input() detail: string;
   @Input() logo: string;
-  @Input() backgroundImage: string;
+  @Input() banner = 'linear-gradient(148deg, #A509D8 0%, rgba(88,121,224,0.00) 100%);';
   @Input() project: string;
   constructor() { }
 

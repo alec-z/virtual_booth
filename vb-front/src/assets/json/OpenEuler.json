@@ -4,7 +4,8 @@
     "subTitle": "openEuler - The Most Innovated OS Open Source Community",
     "detail": "openEuler是一个开源、免费的Linux发行版平台，将通过开放的社区形式与全球的开发者共同构建一个开放、多元和架构包容的软件生态体系。同时，openEuler也是一个创新的平台，鼓励任何人在该平台上提出新想法、开拓新思路、实践新方案。",
     "logo": "/assets/image/openEuler.png",
-    "project": "apache/service-java-chassis"
+    "project": "apache/service-java-chassis",
+    "banner": "/assets/image/banner2.png"
   },
   "courseShowBlock": {
     "title": "通用教程模块",
@@ -53,13 +54,15 @@
           "time": "10：00",
           "title": "iSulad轻量级容器引擎的裸金属实践",
           "detail": "主讲人：蔡灏旻 ，多年容器、操作系统研发经验，对容器、kubernetes、云原生等领域有深入的研究，现任iSula容器团队架构师，带领团队研发iSula容器解决方案，其中轻量级容器引擎iSulad等已经在openEuler开源；在openEuler社区担任架构设计委员会（AC）成员，推出Kata容器首个鲲鹏架构发行版；openEuler社区内担任iSula、Container、Golang等多个SIG组Maintainer。",
-          "meetingType": "type1"
+          "meetingType": "type1",
+          "outerLink": ""
         },
         {
           "time": "10：40",
           "title": "如何进一步加强容器安全启动",
           "detail": "主讲人：卢景晓，十余年新基建从业经验，对NFVI容器化等有深入理解，现任iSula容器团队高级工程师，容器镜像、构建专家，作为project leader带领团队研发isula-build镜像构建工具，深度参与moby、contaienrd、runc、containers、kata等多个社区，openEuler社区内担任iSula SIG maintainer",
-          "meetingType": "type2"
+          "meetingType": "type2",
+          "outerLink": ""
         }
         {
           "time": "11：20",

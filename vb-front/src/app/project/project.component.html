@@ -1,19 +1,20 @@
-<app-header [title]="data.header.title" [subTitle]="data.header.subTitle" [detail]="data.header.detail" [logo]="data.header.logo" [project]="data.header.project">
+<app-header [title]="data.header.title" [subTitle]="data.header.subTitle" [detail]="data.header.detail" [logo]="data.header.logo" [project]="data.header.project"
+[banner]="data.header.banner">
 </app-header>
 <div class="main-info">
   <app-main-info [logo]="data.mainInfo.logo" [title]="data.mainInfo.title" [simpleDetail]="data.mainInfo.simpleDetail">
   </app-main-info>
 </div>
-<app-show-block [title]="data.courseShowBlock.title" [detail]="data.courseShowBlock.detail">
+<app-show-block [title]="data.courseShowBlock.title" [detail]="data.courseShowBlock.detail" *ngIf="data.courseShowBlock">
   <app-course *ngFor="let item of data.courseShowBlock.items" [image]="item.image" [detail]="item.detail"></app-course>
 </app-show-block>
 
-<app-show-block [title]="data.videoShowBlock.title" [detail]="data.videoShowBlock.detail">
+<app-show-block [title]="data.videoShowBlock.title" [detail]="data.videoShowBlock.detail" *ngIf="data.videoShowBlock">
   <app-video *ngFor="let item of data.videoShowBlock.items" [video]="item.video"></app-video>
 
 </app-show-block>
 
-<app-show-block [title]="data.advertiseShowBlock.title" [detail]="data.advertiseShowBlock.detail">
+<app-show-block [title]="data.advertiseShowBlock.title" [detail]="data.advertiseShowBlock.detail" *ngIf="data.advertiseShowBlock">
   <app-advertise *ngFor="let item of data.advertiseShowBlock.items" [logo]="item.logo" [title]="item.title" [outerLink]="item.outerLink"></app-advertise>
 </app-show-block>
 <div class="calendar-scope">

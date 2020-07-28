@@ -7,12 +7,22 @@
   </div>
   <div class="meeting-scope">
   <div class="meeting" [ngClass]="calendarItem.meetingType">
-    <div class="title">
-      {{ calendarItem.title }}
-    </div>
-    <div class="detail">
-      {{ calendarItem.detail }}
-    </div>
+    <a [href]="calendarItem.outerLink" target="_blank" *ngIf="calendarItem.outerLink">
+      <div class="title">
+        {{ calendarItem.title }}
+      </div>
+      <div class="detail">
+        {{ calendarItem.detail }}
+      </div>
+    </a>
+    <ng-template [ngIf]="!calendarItem.outerLink">
+      <div class="title">
+        {{ calendarItem.title }}
+      </div>
+      <div class="detail">
+        {{ calendarItem.detail }}
+      </div>
+    </ng-template>
   </div>
   </div>
 </div>
