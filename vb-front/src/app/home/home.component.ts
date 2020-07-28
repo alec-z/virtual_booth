@@ -8,20 +8,21 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
   calendars = [
     {
-      dayStr: '07.20  星期三',
+      dayStr: '07.30  星期四',
       items: [
         {
-          time: '17：00',
-          title: '会议session',
-          detail: '【JustinMind培训赋能第二期】主讲人：谢巧华；胡福；时间：2020年7月21日（周二）19:00-21:00；地点：U8-2-A08R；其他地域语音。',
+          time: '15:15 - 15:30',
+          title: '主题演讲：华为云：技术+产业双轮驱动 加速云原生创新 - 刘赫伟, 华为云容器域技术总监',
+          detail: '主讲人：刘赫伟，华为云容器域技术总监',
           meetingType: 'type1',
-          outerLink: 'http://servicecomb.apache.org'
+          outerLink: 'http://www.itdks.com/Home/Act/apply?id=5235'
         },
         {
-          time: '17：00',
-          title: '会议session',
-          detail: '【JustinMind培训赋能第二期】主讲人：谢巧华；胡福；时间：2020年7月21日（周二）19:00-21:00；地点：U8-2-A08R；其他地域语音。',
-          meetingType: 'type2'
+          time: '15:40 - 15:55',
+          title: '以AI和大数据为例，将批处理功能引入Kubernetes',
+          detail: '主讲人：马达，华为云容器批量计算首席架构师',
+          meetingType: 'type1',
+          outerLink: 'http://www.itdks.com/Home/Act/apply?id=5235'
         }
       ]
     }
