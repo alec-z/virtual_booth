@@ -9,6 +9,7 @@ export class MainInfoComponent implements OnInit {
   @Input() title: string;
   @Input() logo: string;
   @Input() simpleDetail: string;
+  @Input() detail: string;
 
 
   constructor() { }

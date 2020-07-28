@@ -1,6 +1,7 @@
 .calendar-item {
   display: flex;
   align-items: stretch;
+
   .time {
     padding-top: 19px;
     font-family: FZLTHK--GBK1-0;
@@ -9,9 +10,11 @@
     width: 90px;
     text-align: center;
   }
+
   .divider {
     width: 1px;
     border-right: 1px dashed #666666;
+
     .circle {
       margin-top: 25px;
       margin-left: -2px;
@@ -24,30 +27,38 @@
       border: 1px solid #666666;
     }
   }
+
   .meeting-scope {
     max-width: 960px;
     padding-bottom: 30px;
     padding-left: 20px;
+
     .meeting {
       padding-top: 19px;
       padding-bottom: 16px;
       padding-left: 21px;
       padding-right: 32px;
       background-color: #C1EEF1;
+
       &.type1 {
-        background-color: #C1EEF1;
+        background-color: #ecb7d3;
       }
+
       &.type2 {
         background-color: #B6C7F6;
       }
+
       &.type3 {
         background-color: #B2E4E7;
       }
+
       &.type4 {
         backgorund-color: #F8DEA3;
       }
+
       border-radius: 4px;
       border-radius: 4px;
+
       .title {
         font-family: FZLTCHJW--GB1-0;
         font-size: 16px;
@@ -55,6 +66,7 @@
         height: 20px;
         line-height: 20px;
       }
+
       .detail {
         margin-top: 9px;
         font-family: FZLTHK--GBK1-0;
@@ -62,8 +74,6 @@
         color: #666666;
         line-height: 22px;
       }
-
-  }
-
+    }
   }
 }

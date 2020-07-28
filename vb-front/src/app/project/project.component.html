@@ -2,7 +2,7 @@
 [banner]="data.header.banner">
 </app-header>
 <div class="main-info" *ngIf="data.mainInfo">
-  <app-main-info [logo]="data.mainInfo.logo" [title]="data.mainInfo.title" [simpleDetail]="data.mainInfo.simpleDetail">
+  <app-main-info [logo]="data.mainInfo.logo" [title]="data.mainInfo.title" [simpleDetail]="data.mainInfo.simpleDetail" [detail]="data.mainInfo.detail">
   </app-main-info>
 </div>
 <app-show-block [title]="data.courseShowBlock.title" [detail]="data.courseShowBlock.detail" *ngIf="data.courseShowBlock">

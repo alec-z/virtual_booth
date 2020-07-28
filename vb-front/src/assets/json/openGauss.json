@@ -9,7 +9,8 @@
   "mainInfo": {
     "logo": "/assets/image/openGauss-icon.png",
     "title": "openGauss",
-    "simpleDetail": "把企业级的数据库能力带给用户"
+    "simpleDetail": "把企业级的数据库能力带给用户",
+    "detail": ""
   },
   "advertiseShowBlock": {
     "title": "加入我们",
