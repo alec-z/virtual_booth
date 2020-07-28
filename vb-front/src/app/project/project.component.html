@@ -1,7 +1,7 @@
 <app-header [title]="data.header.title" [subTitle]="data.header.subTitle" [detail]="data.header.detail" [logo]="data.header.logo" [project]="data.header.project"
 [banner]="data.header.banner">
 </app-header>
-<div class="main-info">
+<div class="main-info" *ngIf="data.mainInfo">
   <app-main-info [logo]="data.mainInfo.logo" [title]="data.mainInfo.title" [simpleDetail]="data.mainInfo.simpleDetail">
   </app-main-info>
 </div>
