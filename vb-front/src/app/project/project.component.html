@@ -5,6 +5,14 @@
   <app-main-info [logo]="data.mainInfo.logo" [title]="data.mainInfo.title" [simpleDetail]="data.mainInfo.simpleDetail" [detail]="data.mainInfo.detail">
   </app-main-info>
 </div>
+<app-show-block [title]="data.c1p1ShowBlock.title" [detail]="data.c1p1ShowBlock.detail" [titleOuterLink]="data.c1p1ShowBlock.titleOuterLink" [detailOuterLink]="data.c1p1ShowBlock.detailOuterLink"  *ngIf="data.c1p1ShowBlock">
+  <app-general-item *ngFor="let item of data.c1p1ShowBlock.items" [image]="item.image" [outerLink]="item.outerLink" style="flex: 0 0 100%"></app-general-item>
+</app-show-block>
+
+<app-show-block [title]="data.c2p1ShowBlock.title" [detail]="data.c2p1ShowBlock.detail" [titleOuterLink]="data.c2p1ShowBlock.titleOuterLink" [detailOuterLink]="data.c2p1ShowBlock.detailOuterLink"  *ngIf="data.c2p1ShowBlock">
+  <app-general-item *ngFor="let item of data.c2p1ShowBlock.items" [image]="item.image" [outerLink]="item.outerLink" style="flex: 0 0 40%"></app-general-item>
+</app-show-block>
+
 <app-show-block [title]="data.courseShowBlock.title" [detail]="data.courseShowBlock.detail" [titleOuterLink]="data.courseShowBlock.titleOuterLink" [detailOuterLink]="data.courseShowBlock.detailOuterLink"  *ngIf="data.courseShowBlock">
   <app-course *ngFor="let item of data.courseShowBlock.items" [image]="item.image" [detail]="item.detail" [outerLink]="item.outerLink"></app-course>
 </app-show-block>
@@ -23,6 +31,6 @@
 <div class="calendar-scope">
 <app-calendar-list [calendars]="data.calendars"></app-calendar-list>
 </div>
-<app-show-block [title]="data.m1ShowBlock.title" [detail]="data.m1ShowBlock.detail" [titleOuterLink]="data.m1ShowBlock.titleOuterLink" [detailOuterLink]="data.m1ShowBlock.detailOuterLink"  *ngIf="data.m1ShowBlock">
-  <app-general-item *ngFor="let item of data.m1ShowBlock.items" [image]="item.image" [outerLink]="item.outerLink" style="flex: 0 0 40%"></app-general-item>
+<app-show-block [title]="data.c1pnShowBlock.title" [detail]="data.c1pnShowBlock.detail" [titleOuterLink]="data.c1pnShowBlock.titleOuterLink" [detailOuterLink]="data.c1pnShowBlock.detailOuterLink"  *ngIf="data.c1pnShowBlock">
+  <app-general-item *ngFor="let item of data.c1pnShowBlock.items" [image]="item.image" [outerLink]="item.outerLink" style="flex: 0 0 100%"></app-general-item>
 </app-show-block>
