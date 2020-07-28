@@ -77,6 +77,7 @@ export class HomeComponent implements OnInit {
           detail: '主讲人：徐飞，华为云高级软件工程师；时间：21:30-22:00',
           meetingType: 'type4',
           outerLink: 'http://www.itdks.com/Home/Act/apply?id=5238'
+        }
       ]
     },
     {
