@@ -4,7 +4,8 @@
     "subTitle": "HUAWEI Sponsor Virtual Booth",
     "detail": "目前华为云云端展厅包括：KubeEdge，Volcano,MindSpore，openEuler，openLooKeng，SODA，openGauss，ServiceComb",
     "logo": "/assets/image/kubeedge-horizontal-color.png",
-    "project": "apache/service-java-chassis"
+    "project": "apache/service-java-chassis",
+    "banner": "/assets/image/banner2.png"
   },
   "mainInfo": {
     "logo": "/assets/image/kubeedge-icon-color.png",
