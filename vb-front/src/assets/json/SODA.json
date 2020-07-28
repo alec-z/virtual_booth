@@ -1,88 +1,48 @@
 {
   "header": {
-    "title": "KubeEdge云端展厅",
+    "title": "SODA云端展厅",
     "subTitle": "HUAWEI Sponsor Virtual Booth",
     "detail": "目前华为云云端展厅包括：KubeEdge，Volcano,MindSpore，openEuler，openLooKeng，SODA，openGauss，ServiceComb",
-    "logo": "/assets/image/kubeedge-horizontal-color.png",
+    "logo": "/assets/image/SODA_logo_outline_c_hori.png",
     "project": "apache/service-java-chassis",
     "banner": "/assets/image/banner2.png"
   },
   "mainInfo": {
-    "logo": "/assets/image/kubeedge-icon-color.png",
-    "title": "KubeEdge",
-    "simpleDetail": "一个使能边缘计算的开放平台"
-  },
-  "courseShowBlock": {
-    "title": "通用教程模块",
-    "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
-    "items": [
-      {
-        "image": "/assets/image/simple.jpg",
-        "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"
-      },
-      {
-        "image": "/assets/image/simple.jpg",
-        "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"
-      },
-      {
-        "image": "/assets/image/simple.jpg",
-        "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"
-      }
-    ]
-  },
-  "videoShowBlock": {
-    "title": "最新视频",
-    "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
-    "items": [
-      {
-        "video": "/assets/video/demo.mp4"
-      },
-      {
-        "video": "/assets/video/demo.mp4"
-      },
-      {
-        "video": "/assets/video/demo.mp4"
-      }
-    ]
+    "logo": "/assets/image/SODA_logo_outline_c.png",
+    "title": "SODA",
+    "simpleDetail": "SODA是Linux基金会在数据与存储领域的第一个子基金会，由华为联合业界领先的数据与存储供应商，以及全球各行业的优秀企业共同建立，旨在通过智能开放的数据自治标准化建设，帮助用户应对数据基础设施云化转型过程中的各种挑战。",
+    "detail": "SODA是Linux基金会在数据与存储领域的第一个子基金会，由华为联合业界领先的数据与存储供应商，以及全球各行业的优秀企业共同建立，旨在通过智能开放的数据自治标准化建设，帮助用户应对数据基础设施云化转型过程中的各种挑战。<br />华为，中国联通，建信金科，鼎甲，Intel，TOYOTA，YAHOO! JAPAN，NTT等21家全球知名企业目前均为SODA基金会成员。<br />SODA社区主要包含北向插件项目（NBP），存储控制器项目（OpenSDS），多云项目（Multi-Cloud）及YIG等多个项目。其中，NBP用于支持SODA存储服务于云及应用框架进行北向对接；OpenSDS用于同一管理本地数据中心和云端的块、文件、对象存储；Multi-Cloud是基于策略的多云数据控制器，支持跨云数据流动以及数据生命周期管理；YIG是中国联通通过SODA孵化计划加入基金会的第一个项目。"
   },
   "advertiseShowBlock": {
-    "title": "加入我们",
-    "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
+    "title": "通用信息模块",
+    "detail": "提供社区信息",
     "items": [
       {
-        "logo": "/assets/image/kubeedge-icon-color.png",
+        "logo": "/assets/image/SODA_logo_outline_c.png",
         "title": "社区官网",
-        "outerLink": "https://servicecomb.apache.org"
+        "outerLink": "https://sodafoundation.io/"
       },
       {
-        "logo": "/assets/image/iconfinder_Internet_Line-11_1587496.png",
-        "title": "源码地址",
-        "outerLink": "https://servicecomb.apache.org"
+        "logo": "/assets/image/github_icon.png",
+        "title": "GitHub",
+        "outerLink": "https://github.com/sodafoundation"
       },
       {
         "logo": "/assets/image/iconfinder_email-marketing_2944885.png",
-        "title": "邮件列表",
-        "outerLink": "https://servicecomb.apache.org"
+        "title": "加入我们",
+        "outerLink": "https://sodafoundation.io/the-foundation/join/"
       }
     ]
   },
   "calendars": [
     {
-      "dayStr": "07.20  星期三",
+      "dayStr": "07.31  星期五",
       "items": [
         {
-          "time": "17：00",
-          "title": "会议session",
-          "detail": "【JustinMind培训赋能第二期】主讲人：谢巧华；胡福；时间：2020年7月21日（周二）19:00-21:00；地点：U8-2-A08R；其他地域语音。",
-          "meetingType": "type1",
-          "outerLink": ""
-        },
-        {
-          "time": "17：00",
-          "title": "会议session",
-          "detail": "【JustinMind培训赋能第二期】主讲人：谢巧华；胡福；时间：2020年7月21日（周二）19:00-21:00；地点：U8-2-A08R；其他地域语音。",
-          "meetingType": "type2",
-          "outerLink": ""
+          "time": "20:10 - 20:25",
+          "title": "使用SODA和CSI进行卷扩容的最佳实践",
+          "detail": "如何在云原生应用上更好地管理数据及利用存储资源，SODA如何为用户带来简单统一的云原生应用数据管理体验",
+          "meetingType": "type1"
         }
       ]
     }
