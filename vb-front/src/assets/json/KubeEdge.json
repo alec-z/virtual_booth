@@ -35,12 +35,15 @@
     "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
     "items": [
       {
+        "image": "",
         "video": "/assets/video/demo.mp4"
       },
       {
+        "image": "",
         "video": "/assets/video/demo.mp4"
       },
       {
+        "image": "",
         "video": "/assets/video/demo.mp4"
       }
     ]
