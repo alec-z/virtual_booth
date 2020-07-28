@@ -2,9 +2,9 @@
   "header": {
     "title": "KubeEdge云端展厅",
     "subTitle": "HUAWEI Sponsor Virtual Booth",
-    "detail": "目前华为云云端展厅包括：KubeEdge，Volcano,MindSpore，openEuler，openLooKeng，openGauss，SODA，ServiceComb",
+    "detail": "目前华为云云端展厅包括：KubeEdge, Volcano, MindSpore, openEuler, openLooKeng, openGauss, SODA, ServiceComb",
     "logo": "/assets/image/kubeedge-horizontal-color.png",
-    "project": "apache/service-java-chassis",
+    "project": "cncf/kubeedge",
     "banner": "/assets/image/banner2.png"
   },
   "mainInfo": {
@@ -13,82 +13,93 @@
     "simpleDetail": "一个使能边缘计算的开放平台",
     "detail": "KubeEdge是一个开源系统，用于将容器化应用程序编排功能扩展到Edge的主机。它基于kubernetes构建，并为网络应用程序提供基础架构支持。云和边缘之间的部署和元数据同步。 KubeEdge使用Apache 2.0许可。并且绝对可以免费用于个人或商业用途。我们欢迎贡献者！<br />我们的目标是创建一个开放平台，使能边缘计算，将容器化应用编排功能扩展到边缘的节点和设备，后者基于kubernetes构建，并为云和边缘之间的网络，应用部署和元数据同步提供基础架构支持。"
   },
-  "courseShowBlock": {
-    "title": "通用教程",
-    "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
-    "items": [
-      {
-        "image": "/assets/image/simple.jpg",
-        "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"
-      },
-      {
-        "image": "/assets/image/simple.jpg",
-        "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"
-      },
-      {
-        "image": "/assets/image/simple.jpg",
-        "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"
-      }
-    ]
-  },
   "videoShowBlock": {
-    "title": "最新视频",
-    "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
+    "title": "KubeEdge从入门到精通",
+    "detail": "面向不同程度的用户与开发者，提供的入门与实践教程，从理论到实践KubeEdge",
     "items": [
       {
-        "image": "/assets/image/simple.jpg",
-        "video": "http://servicecomb.apache.org"
+        "image": "/assets/image/kubeedge-video1.PNG",
+        "video": "https://bbs.huaweicloud.com/videos/102748"
       },
       {
         "image": "/assets/image/simple.jpg",
-        "video": "/assets/video/demo.mp4"
+        "video": "https://bbs.huaweicloud.com/videos/102749"
       },
       {
         "image": "/assets/image/simple.jpg",
-        "video": "/assets/video/demo.mp4"
+        "video": "https://bbs.huaweicloud.com/videos/102750"
+      },
+      {
+        "image": "/assets/image/simple.jpg",
+        "video": "https://bbs.huaweicloud.com/videos/102751"
+      },
+      {
+        "image": "/assets/image/simple.jpg",
+        "video": "https://bbs.huaweicloud.com/videos/102752"
+      },
+      {
+        "image": "/assets/image/simple.jpg",
+        "video": "https://bbs.huaweicloud.com/videos/102753"
       }
     ]
   },
   "advertiseShowBlock": {
     "title": "加入我们",
-    "titleOuterLink": "https://servicecomb.apache.org",
-    "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
-    "detailOuterLink": "https://servicecomb.apache.org",
+    "titleOuterLink": "https://kubeedge.io/en/",
+    "detail": "KubeEdge社区欢迎所有的用户与开发者！",
+    "detailOuterLink": "https://kubeedge.io/en/",
     "items": [
       {
         "logo": "/assets/image/kubeedge-icon-color.png",
         "title": "社区官网",
-        "outerLink": "https://servicecomb.apache.org"
+        "outerLink": "https://kubeedge.io/en/"
       },
       {
-        "logo": "/assets/image/iconfinder_Internet_Line-11_1587496.png",
+        "logo": "/assets/image/github_icon.png",
         "title": "源码地址",
-        "outerLink": "https://servicecomb.apache.org"
+        "outerLink": "https://github.com/kubeedge"
       },
       {
         "logo": "/assets/image/iconfinder_email-marketing_2944885.png",
         "title": "邮件列表",
-        "outerLink": "https://servicecomb.apache.org"
+        "outerLink": "https://groups.google.com/forum/#!forum/kubeedge"
+      },
+      {
+        "logo": "/assets/image/quick_installation.png",
+        "title": "快速安装",
+        "outerLink": "http://docs.kubeedge.io/en/latest/setup/kubeedge_install_keadm.html"
       }
     ]
   },
   "calendars": [
     {
-      "dayStr": "07.20  星期三",
+      "dayStr": "07.30  星期四",
       "items": [
         {
-          "time": "17：00",
-          "title": "会议session",
-          "detail": "【JustinMind培训赋能第二期】主讲人：谢巧华；胡福；时间：2020年7月21日（周二）19:00-21:00；地点：U8-2-A08R；其他地域语音。",
+          "time": "17：40",
+          "title": "会议 Session",
+          "detail": "介绍：KubeEdge：Kubernetes原生的边缘计算框架 - Zefeng（Kevin） Wang，华为和Dave Chen，ARM",
           "meetingType": "type1",
-          "outerLink": ""
+          "outerLink": "https://cnosvschina20eng.sched.com/event/cpAJ/intro-kubeedge-kubernetes-native-edge-computing-framework-zefeng-kevin-wang-huawei-dave-chen-arm?iframe=no&w=100%&sidebar=yes&bg=no"
         },
         {
-          "time": "17：00",
-          "title": "会议session",
-          "detail": "【JustinMind培训赋能第二期】主讲人：谢巧华；胡福；时间：2020年7月21日（周二）19:00-21:00；地点：U8-2-A08R；其他地域语音。",
-          "meetingType": "type2",
-          "outerLink": ""
+          "time": "21：30",
+          "title": "会议 Session",
+          "detail": "不再有事件损失：使用KubeEdge在不稳定的网络上管理工作负载 - Fei Xu，华为",
+          "meetingType": "type1",
+          "outerLink": "https://cnosvschina20eng.sched.com/event/cp90/no-more-event-lossdaepmanaging-workloads-over-unstable-network-with-kubeedge-fei-xu-huawei?iframe=no&w=100%&sidebar=yes&bg=no"
+        }
+      ]
+    },
+    {
+      "dayStr": "07.31  星期五",
+      "items": [
+        {
+          "time": "19：30",
+          "title": "主题演讲 Keynote",
+          "detail": "主题演讲：使用Kubernetes管理中国高速公路上的十万个边缘节点 - XiaoLong Dong，Xingyunshuju和Qi Zhang，华为",
+          "meetingType": "type1",
+          "outerLink": "https://cnosvschina20eng.sched.com/event/cp8l/keynote-managing-one-hundred-thousand-edge-nodes-with-kubernetes-in-chinas-highway-xiaolong-dong-xingyunshuju-qi-zhang-huawei?iframe=no&w=100%&sidebar=yes&bg=no"
         }
       ]
     }
