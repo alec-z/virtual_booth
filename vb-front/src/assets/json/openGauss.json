@@ -1,0 +1,54 @@
+{
+  "header": {
+    "title": "openGauss云端展厅",
+    "subTitle": "HUAWEI Sponsor Virtual Booth",
+    "detail": "目前华为云云端展厅包括：KubeEdge，Volcano，MindSpore，openEuler，openGauss，openLooKeng，SODA，ServiceComb",
+    "logo": "/assets/image/openGauss.png",
+    "project": "apache/service-java-chassis"
+  },
+  "mainInfo": {
+    "logo": "/assets/image/openGauss-icon.png",
+    "title": "openGauss",
+    "simpleDetail": "把企业级的数据库能力带给用户"
+  },
+  "advertiseShowBlock": {
+    "title": "加入我们",
+    "detail": "欢迎加入openGauss社区",
+    "items": [
+      {
+        "logo": "/assets/image/openGauss-website.png",
+        "title": "官方网站",
+        "outerLink": "https://opengauss.org"
+      },
+      {
+        "logo": "/assets/image/openGauss-gitee.ico",
+        "title": "源码仓库",
+        "outerLink": "https://gitee.com/opengauss"
+      },
+      {
+        "logo": "/assets/image/openGauss-github.png",
+        "title": "镜像仓库",
+        "outerLink": "https://github.com/opengauss-mirror"
+      }
+    ]
+  },
+  "calendars": [
+    {
+      "dayStr": "08.01  星期六",
+      "items": [
+        {
+          "time": "09:30",
+          "title": "自建社区？你要的容器基础设施都在这里",
+          "detail": "主讲人：向新勇  时间：09:30-10:00",
+          "meetingType": "type1"
+        },
+        {
+          "time": "10：10",
+          "title": "Memory Optimized Tables(MOT) of openGauss DB for extreme performace",
+          "detail": "主讲人：Vinoth Veeraraghavan  时间：10:10-10:40",
+          "meetingType": "type1"
+        }
+      ]
+    }
+  ]
+}
