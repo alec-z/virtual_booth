@@ -82,8 +82,8 @@
       "items": [
         {
           "time": "15：40",
-          "title": "会议session",
-          "detail": "【以AI和大数据为例，将批处理功能引入Kubernetes】主讲人：马达；时间：2020年7月30日（周四）15:40-15:55。",
+          "title": "以AI和大数据为例，将批处理功能引入Kubernetes",
+          "detail": "主讲人：马达；时间：2020年7月30日（周四）15:40-15:55",
           "meetingType": "type1",
           "outerLink": "http://www.itdks.com/Home/Act/apply?id=5235"
         }
@@ -94,8 +94,8 @@
       "items": [
         {
           "time": "17：00",
-          "title": "会议session",
-          "detail": "【深入了解：Volcano】主讲人：马达；徐中虎；时间：2020年7月31日（周五）17:00-17:30。",
+          "title": "深入了解：Volcano",
+          "detail": "主讲人：马达，徐中虎；时间：2020年7月31日（周五）17:00-17:30",
           "meetingType": "type3",
           "outerLink": "http://www.itdks.com/Home/Act/apply?id=5242"
         }

@@ -22,23 +22,23 @@
         "video": "https://bbs.huaweicloud.com/videos/102748"
       },
       {
-        "image": "/assets/image/simple.jpg",
+        "image": "/assets/image/kubeedge-video2.PNG",
         "video": "https://bbs.huaweicloud.com/videos/102749"
       },
       {
-        "image": "/assets/image/simple.jpg",
+        "image": "/assets/image/kubeedge-video3.PNG",
         "video": "https://bbs.huaweicloud.com/videos/102750"
       },
       {
-        "image": "/assets/image/simple.jpg",
+        "image": "/assets/image/kubeedge-video4.PNG",
         "video": "https://bbs.huaweicloud.com/videos/102751"
       },
       {
-        "image": "/assets/image/simple.jpg",
+        "image": "/assets/image/kubeedge-video5.PNG",
         "video": "https://bbs.huaweicloud.com/videos/102752"
       },
       {
-        "image": "/assets/image/simple.jpg",
+        "image": "/assets/image/kubeedge-video6.PNG",
         "video": "https://bbs.huaweicloud.com/videos/102753"
       }
     ]
@@ -60,14 +60,9 @@
         "outerLink": "https://github.com/kubeedge"
       },
       {
-        "logo": "/assets/image/iconfinder_email-marketing_2944885.png",
-        "title": "邮件列表",
-        "outerLink": "https://groups.google.com/forum/#!forum/kubeedge"
-      },
-      {
         "logo": "/assets/image/quick_installation.png",
         "title": "快速安装",
-        "outerLink": "http://docs.kubeedge.io/en/latest/setup/kubeedge_install_keadm.html"
+        "outerLink": "https://docs.kubeedge.io/en/latest/setup/keadm.html"
       }
     ]
   },
@@ -77,29 +72,29 @@
       "items": [
         {
           "time": "17：40",
-          "title": "会议 Session",
-          "detail": "介绍：KubeEdge：Kubernetes原生的边缘计算框架 - Zefeng（Kevin） Wang，华为和Dave Chen，ARM",
-          "meetingType": "type1",
-          "outerLink": "https://cnosvschina20eng.sched.com/event/cpAJ/intro-kubeedge-kubernetes-native-edge-computing-framework-zefeng-kevin-wang-huawei-dave-chen-arm?iframe=no&w=100%&sidebar=yes&bg=no"
+          "title": "介绍：KubeEdge：Kubernetes原生的边缘计算框架",
+          "detail": "Zefeng（Kevin） Wang，华为和Dave Chen，ARM",
+          "meetingType": "type4",
+          "outerLink": "http://www.itdks.com/Home/Act/apply?id=5238&mUid=10236"
         },
         {
           "time": "21：30",
-          "title": "会议 Session",
-          "detail": "不再有事件损失：使用KubeEdge在不稳定的网络上管理工作负载 - Fei Xu，华为",
-          "meetingType": "type1",
-          "outerLink": "https://cnosvschina20eng.sched.com/event/cp90/no-more-event-lossdaepmanaging-workloads-over-unstable-network-with-kubeedge-fei-xu-huawei?iframe=no&w=100%&sidebar=yes&bg=no"
+          "title": "不再有事件损失：使用KubeEdge在不稳定的网络上管理工作负载",
+          "detail": "Fei Xu，华为",
+          "meetingType": "type4",
+          "outerLink": "http://www.itdks.com/Home/Act/apply?id=5238&mUid=10236"
         }
       ]
     },
     {
-      "dayStr": "07.31  星期五",
+      "dayStr": "08.01  星期五",
       "items": [
         {
           "time": "19：30",
-          "title": "主题演讲 Keynote",
-          "detail": "主题演讲：使用Kubernetes管理中国高速公路上的十万个边缘节点 - XiaoLong Dong，Xingyunshuju和Qi Zhang，华为",
+          "title": "主题演讲：使用Kubernetes管理中国高速公路上的十万个边缘节点",
+          "detail": "XiaoLong Dong，Xingyunshuju和Qi Zhang，华为",
           "meetingType": "type1",
-          "outerLink": "https://cnosvschina20eng.sched.com/event/cp8l/keynote-managing-one-hundred-thousand-edge-nodes-with-kubernetes-in-chinas-highway-xiaolong-dong-xingyunshuju-qi-zhang-huawei?iframe=no&w=100%&sidebar=yes&bg=no"
+          "outerLink": "http://www.itdks.com/Home/Act/apply?id=5246&mUid=10236"
         }
       ]
     }
