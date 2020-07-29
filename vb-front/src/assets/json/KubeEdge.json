@@ -3,7 +3,7 @@
     "title": "KubeEdge云端展厅",
     "subTitle": "HUAWEI Sponsor Virtual Booth",
     "detail": "目前华为云云端展厅包括：KubeEdge, Volcano, MindSpore, openEuler, openLooKeng, openGauss, SODA, ServiceComb",
-    "logo": "/assets/image/kubeedge-horizontal-color.png",
+    "logo": "/assets/image/kubeedge-horizontal-white.png",
     "project": "cncf/kubeedge",
     "banner": "/assets/image/banner2.png"
   },
@@ -15,7 +15,7 @@
   },
   "videoShowBlock": {
     "title": "KubeEdge从入门到精通",
-    "detail": "面向不同程度的用户与开发者，提供的入门与实践教程，从理论到实践KubeEdge",
+    "detail": "面向不同程度的用户与开发者，提供的入门与实践教程，从理论学习到实践KubeEdge",
     "items": [
       {
         "image": "/assets/image/kubeedge-video1.PNG",
@@ -72,27 +72,27 @@
       "items": [
         {
           "time": "17：40",
-          "title": "介绍：KubeEdge：Kubernetes原生的边缘计算框架",
-          "detail": "Zefeng（Kevin） Wang，华为和Dave Chen，ARM",
+          "title": "KubeEdge：云原生边缘计算框架",
+          "detail": "主讲人：王泽锋，华为云云原开源负责人，Dave Chen，ARM高级工程师；时间：17:40-18:10",
           "meetingType": "type4",
           "outerLink": "http://www.itdks.com/Home/Act/apply?id=5238&mUid=10236"
         },
         {
           "time": "21：30",
-          "title": "不再有事件损失：使用KubeEdge在不稳定的网络上管理工作负载",
-          "detail": "Fei Xu，华为",
+          "title": "告别事件丢失：使用KubeEdge在不稳定的网络上管理工作负载",
+          "detail": "主讲人：徐飞，华为云高级软件工程师；时间：21:30-22:00",
           "meetingType": "type4",
           "outerLink": "http://www.itdks.com/Home/Act/apply?id=5238&mUid=10236"
         }
       ]
     },
     {
-      "dayStr": "08.01  星期五",
+      "dayStr": "08.01  星期六",
       "items": [
         {
           "time": "19：30",
-          "title": "主题演讲：使用Kubernetes管理中国高速公路上的十万个边缘节点",
-          "detail": "XiaoLong Dong，Xingyunshuju和Qi Zhang，华为",
+          "title": "【主题演讲】使用Kubernetres管理中国高速公路上的十万个边缘节点",
+          "detail": "主讲人：张琦，华为云智能边缘平台首席架构师，董晓龙，数软科技有限公司架构师，时间：19:30-19:45",
           "meetingType": "type1",
           "outerLink": "http://www.itdks.com/Home/Act/apply?id=5246&mUid=10236"
         }
