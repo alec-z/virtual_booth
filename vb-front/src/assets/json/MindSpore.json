@@ -2,10 +2,10 @@
   "header": {
     "title": "MindSpore云端展厅",
     "subTitle": "MindSpore Virtual Booth",
-    "detail": "目前华为云云端展厅包括：KubeEdge，Volcano,MindSpore，openEuler，openLooKeng，SODA，openGauss，ServiceComb",
+    "detail": "目前华为云云端展厅包括：KubeEdge，Volcano, MindSpore，openEuler，openLooKeng，SODA，openGauss，ServiceComb",
     "logo": "/assets/image/MindSpore_horizontal.png",
     "project": "https://gitee.com/mindspore/mindspore",
-    "banner": "/assets/image/banner2.png"
+    "banner": "/assets/image/mindspore_banner.png"
   },
   "mainInfo": {
     "logo": "/assets/image/MindSpore.png",
@@ -143,7 +143,7 @@
         {
           "time": "11：20",
           "title": "Utilizing Kubeflow and Volcano for cloud native MindSpore offering  【MindSpore专场session】",
-          "detail": "主讲人：刘烨东；时间：10:40-11:20",
+          "detail": "主讲人：刘烨东；时间：11:20-12:00",
           "meetingType": "type1",
           "outerLink": "http://www.itdks.com/Home/Act/apply?id=5239&mUid=10236"
         },
