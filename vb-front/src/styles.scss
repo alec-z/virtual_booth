@@ -7,6 +7,12 @@ a {
   outline:none;
   outline:0;
 }
+a:focus,div:focus {
+  text-decoration:none;
+  outline:none;
+  outline:0;
+
+}
 .clearfix:after {
   content:"";
   display: block;
