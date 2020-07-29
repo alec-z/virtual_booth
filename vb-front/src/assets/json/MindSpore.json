@@ -2,7 +2,7 @@
   "header": {
     "title": "MindSpore云端展厅",
     "subTitle": "MindSpore Virtual Booth",
-    "detail": "目前华为云云端展厅包括：KubeEdge，Volcano, MindSpore，openEuler，openLooKeng，SODA，openGauss，ServiceComb",
+    "detail": "目前华为云云端展厅包括：KubeEdge, Volcano, MindSpore, openEuler, <br />openLooKeng, SODA, openGauss, ServiceComb",
     "logo": "/assets/image/MindSpore_horizontal.png",
     "project": "https://gitee.com/mindspore/mindspore",
     "banner": "/assets/image/mindspore_banner.png"
@@ -108,17 +108,14 @@
       {
         "logo": "/assets/image/mindspore_qq.png",
         "title": "官方qq群",
-        "outerLink": ""
       },
       {
         "logo": "/assets/image/mindspore_wechat.png",
         "title": "微信公众号",
-        "outerLink": ""
       },
       {
         "logo": "/assets/image/mindspore_douyin.png",
         "title": "官方抖音号",
-        "outerLink": ""
       }
     ]
   },
