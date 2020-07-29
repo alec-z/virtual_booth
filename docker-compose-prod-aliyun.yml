@@ -1,16 +1,10 @@
 version: '3'
 services:
   web:
-    build:
-      context: ./vb-front
-      dockerfile: Dockerfile
     image:
       aleczheng/vb-front
     ports:
       - '8080:80'
   backend:
-    build:
-      context: ./vb-backend
-      dockerfile: Dockerfile.dev
     image:
       aleczheng/vb-backend
