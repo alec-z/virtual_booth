@@ -2,7 +2,7 @@
   "header": {
     "title": "MindSpore云端展厅",
     "subTitle": "MindSpore Virtual Booth",
-    "detail": "目前华为云云端展厅包括：KubeEdge, Volcano, MindSpore, openEuler, <br />openLooKeng, SODA, openGauss, ServiceComb",
+    "detail": "了解来自华为的开源项目：KubeEdge, Volcano, MindSpore, <br /> openEuler, openLooKeng, openGauss, SODA, ServiceComb",
     "logo": "/assets/image/MindSpore_horizontal.png",
     "project": "https://gitee.com/mindspore/mindspore",
     "banner": "/assets/image/mindspore_banner.png"
