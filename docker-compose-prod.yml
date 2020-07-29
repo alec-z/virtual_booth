@@ -5,7 +5,7 @@ services:
       context: ./vb-front
       dockerfile: Dockerfile
     image:
-      aleczheng/vb-front
+      registry.cn-shenzhen.aliyuncs.com/aleczheng/vb-front
     ports:
       - '80:80'
     environment:
@@ -17,7 +17,7 @@ services:
       context: ./vb-backend
       dockerfile: Dockerfile.dev
     image:
-      aleczheng/vb-backend
+      registry.cn-shenzhen.aliyuncs.com/aleczheng/vb-backend
     environment:
       GOPROXY: 'https://mirrors.aliyun.com/goproxy/'
     depends_on:

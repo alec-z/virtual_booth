@@ -2,14 +2,14 @@ version: '3'
 services:
   web:
     image:
-      aleczheng/vb-front
+      registry.cn-shenzhen.aliyuncs.com/aleczheng/vb-front
     ports:
       - '80:80'
     environment:
       - NGINX_BACK_END=backend
   backend:
     image:
-      aleczheng/vb-backend
+      registry.cn-shenzhen.aliyuncs.com/aleczheng/vb-backend
   database:
     image: 'mysql:5'
     environment:
