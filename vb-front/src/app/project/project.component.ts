@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
 import {HttpClient} from '@angular/common/http';
+import {CookieService} from 'ngx-cookie-service';
 
 @Component({
   selector: 'app-project',
@@ -26,7 +27,7 @@ export class ProjectComponent implements OnInit {
 
   };
 
-  constructor(private route: ActivatedRoute, private http: HttpClient) { }
+  constructor(private route: ActivatedRoute, private http: HttpClient, private cookieService: CookieService) { }
 
   ngOnInit(): void {
     const projectName = this.route.snapshot.params['project-name'];
@@ -34,6 +35,11 @@ export class ProjectComponent implements OnInit {
       this.data = data;
       window.scrollTo(0, 0);
     });
+    const phone = this.cookieService.get('phone');
+    if (phone !== undefined && phone != null && phone !== '') {
+      this.http.get('/api/visits?project=' + projectName + '&phone=' + phone).subscribe();
+    }
+
   }
 
 

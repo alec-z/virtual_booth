@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {CookieService} from 'ngx-cookie-service';
+import {HttpClient} from '@angular/common/http';
 
 @Component({
   selector: 'app-home',
@@ -207,9 +209,13 @@ export class HomeComponent implements OnInit {
     }
   ];
 
-  constructor() { }
+  constructor(private cookieService: CookieService, private http: HttpClient) { }
 
   ngOnInit(): void {
+    const phone = this.cookieService.get('phone');
+    if (phone !== undefined && phone != null && phone !== '') {
+      this.http.get('/api/visits?project=home&phone=' + phone).subscribe();
+    }
   }
 
   goToLink(url: string): void {
