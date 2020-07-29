@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-fix-nav',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fix-nav.component.scss']
 })
 export class FixNavComponent implements OnInit {
+  @Input() navBack = false;
 
   constructor() { }
 
