@@ -16,26 +16,29 @@
 
   },
   "courseShowBlock": {
-    "title": "通用教程",
-    "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
+    "title": "入门教程",
+    "detail": "面向入门开发者提供多种场景下的使用教程，通过细分步骤指导如何使用ServiceComb",
     "items": [
       {
-        "image": "/assets/image/simple.jpg",
-        "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"
+        "image": "/assets/image/sc-quickstart.jpg",
+        "detail": "Java-Chassis 入门指南",
+        "outerLink": "http://servicecomb.apache.org/cn/docs/products/java-chassis/quick-start/"
       },
       {
-        "image": "/assets/image/simple.jpg",
-        "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"
+        "image": "/assets/image/sc-quickstart3.png",
+        "detail": "一键式20分钟开发\"体质指数\"微服务应用",
+        "outerLink": "https://devstar.developer.huaweicloud.com/devstar/code-templates/1b83770cef7c4a3ba0d658c993651bf8"
       },
       {
-        "image": "/assets/image/simple.jpg",
-        "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"
+        "image": "/assets/image/sc-quickstart4.png",
+        "detail": "使用mesher支持多语言多技术栈接入servicecomb微服务体系",
+        "outerLink": "http://servicecomb.apache.org/cn/docs/products/mesher/quick-start/"
       }
     ]
   },
   "videoShowBlock": {
     "title": "最新视频",
-    "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
+    "detail": "快速直观了解ServiceComb",
     "items": [
       {
         "image": "/assets/image/sc_video1.jpg",
@@ -81,14 +84,14 @@
           "title": "ServiceComb ToolKit 加速企业应用微服务化改造实践",
           "detail": "主讲人：郑志鹏  时间：09:30-10:00",
           "meetingType": "type1",
-          "outerLink": ""
+          "outerLink": "https://www.itdks.com/Home/Act/apply?id=5246"
         },
         {
           "time": "11:30",
           "title": "通过统一微服务治理平台整合Spring Cloud、ServiceComb与ServiceMesh",
           "detail": "主讲人：田晓亮  时间：10:10-10:40",
           "meetingType": "type1",
-          "outerLink": ""
+          "outerLink": "https://www.itdks.com/Home/Act/apply?id=5246"
         }
       ]
     }
