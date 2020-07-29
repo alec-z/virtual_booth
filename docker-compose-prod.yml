@@ -18,6 +18,8 @@ services:
       dockerfile: Dockerfile.dev
     image:
       aleczheng/vb-backend
+    environment:
+      GOPROXY: 'https://mirrors.aliyun.com/goproxy/'
     depends_on:
       - "database"
   database:
