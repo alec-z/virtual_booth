@@ -8,8 +8,7 @@
     "banner": "/assets/image/banner2.png"
   },
   "mainInfo": {
-    "logo": "/assets/image/volcano_detail_logo_with_brand_2.png",
-
+    "logo": "/assets/image/volcano-stacked-color.png",
     "simpleDetail": "让算力如火山般喷薄而出",
     "detail": "Volcano是基于Kubernetes的云原生批量计算引擎，基于华为云在AI、大数据领域的深厚业务积累，补齐了Kubernetes在面向AI、大数据、高性能计算等批量计算任务调度、编排等场景下的短板，向下支持鲲鹏、昇腾、X86等多元算力，向上使能TensorFlow、Spark、华为MindSpore等主流行业计算框架，让数据科学家和算法工程师充分享受到云原生技术所带来的高效计算与极致体验。"
   },
@@ -19,7 +18,7 @@
     "detail": "向上无缝对接多种主流计算框架，向下支持多元算力混合调度",
     "items": [
       {
-        "image": "/assets/image/volcano_framework.PNG"
+        "image": "/assets/image/volcano_framework.png"
       }
     ]
   },
@@ -62,7 +61,7 @@
   "advertiseShowBlock": {
     "title": "加入我们",
     "titleOuterLink": "https://volcano.sh/",
-    "detail": "面向不同程度开发者提供丰富的说明文档Volcano",
+    "detail": "欢迎加入Volcano社区，共同构建地表最强批量调度能力",
     "detailOuterLink": "https://volcano.sh/",
     "items": [
       {
