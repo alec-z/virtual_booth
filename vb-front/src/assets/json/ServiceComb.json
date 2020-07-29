@@ -38,16 +38,16 @@
     "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
     "items": [
       {
-        "image": "/assets/image/simple.jpg",
-        "video": "http://servicecomb.apache.org"
+        "image": "/assets/image/sc_video1.jpg",
+        "video": "https://developer.huaweicloud.com/exhibition/apache-servicecomb.html"
       },
       {
-        "image": "/assets/image/simple.jpg",
-        "video": "/assets/video/demo.mp4"
+        "image": "/assets/image/sc_video2.jpg",
+        "video": "https://developer.huaweicloud.com/exhibition/apache-servicecomb.html"
       },
       {
-        "image": "/assets/image/simple.jpg",
-        "video": "/assets/video/demo.mp4"
+        "image": "/assets/image/sc_video0.jpg",
+        "video": "https://www.bilibili.com/video/BV1b5411a7Kr?pop_share=1"
       }
     ]
   },
