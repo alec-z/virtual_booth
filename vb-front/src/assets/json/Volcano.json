@@ -27,34 +27,16 @@
     "detail": "面向大数据、AI、科学计算等场景，提供通用的任务调度能力和多种调度策略",
     "items": [
       {
-        "image": "/assets/image/volcano_Spark.PNG"
+        "image": "/assets/image/volcano-framework-1.jpg"
       },
       {
-        "image": "/assets/image/volcano_tensorflow.PNG"
+        "image": "/assets/image/volcano-framework-2.jpg"
       },
       {
-        "image": "/assets/image/volcano_pytorch.PNG"
+        "image": "/assets/image/volcano-framework-3.jpg"
       },
       {
-        "image": "/assets/image/volcano_MPI.PNG"
-      },
-      {
-        "image": "/assets/image/volcano_mindspore.PNG"
-      },
-      {
-        "image": "/assets/image/volcano_paddle.PNG"
-      },
-      {
-        "image": "/assets/image/volcano_kubeflow.PNG"
-      },
-      {
-        "image": "/assets/image/volcano_flink.PNG"
-      },
-      {
-        "image": "/assets/image/volcano_horovod.PNG"
-      },
-      {
-        "image": "/assets/image/volcano_argo-stacked-color.png"
+        "image": "/assets/image/volcano-framework-4.jpg"
       }
     ]
   },
