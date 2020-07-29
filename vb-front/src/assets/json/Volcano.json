@@ -76,8 +76,18 @@
         "outerLink": "https://github.com/volcano-sh/volcano"
       },
       {
+        "logo": "/assets/image/iconfinder_email-marketing_2944885.png",
+        "title": "邮件列表",
+        "outerLink": "https://groups.google.com/forum/#!forum/volcano-sh"
+      },
+      {
+        "logo": "/assets/image/volcano_weekmeetup.PNG",
+        "title": "交流例会",
+        "outerLink": "https://zoom.us/j/193601252"
+      },
+      {
         "logo": "/assets/image/volcano_weixin_assist.PNG",
-        "title": "技术交流"
+        "title": "技术讨论"
       },
       {
         "logo": "/assets/image/volcano_container_box.PNG",
