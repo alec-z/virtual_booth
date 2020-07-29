@@ -1,33 +1,72 @@
 {
   "header": {
     "title": "openEuler云端展厅",
-    "subTitle": "openEuler - The Most Innovated OS Open Source Community",
-    "detail": "openEuler是一个开源、免费的Linux发行版平台，将通过开放的社区形式与全球的开发者共同构建一个开放、多元和架构包容的软件生态体系。同时，openEuler也是一个创新的平台，鼓励任何人在该平台上提出新想法、开拓新思路、实践新方案。",
+    "subTitle": "openEuler Virtual Booth",
+    "detail": "目前华为云云端展厅包括：KubeEdge，Volcano,MindSpore，openEuler，openLooKeng，SODA，openGauss，ServiceComb",
     "logo": "/assets/image/openEuler.png",
-    "project": "apache/service-java-chassis",
+    "project": "https://gitee.com/openeuler",
     "banner": "/assets/image/banner2.png"
+  },
+   "mainInfo": {
+    "logo": "/assets/image/openEuler.png",
+    "title": "openEuler",
+    "simpleDetail": "The Most Innovated OS Open Source Community",
+    "detail": "openEuler是一个开源、免费的Linux发行版平台，将通过开放的社区形式与全球的开发者共同构建一个开放、多元和架构包容的软件生态体系。同时，openEuler也是一个创新的平台，鼓励任何人在该平台上提出新想法、开拓新思路、实践新方案。"
   },
   "courseShowBlock": {
     "title": "通用教程",
-    "detail": "详细攻略教您如何使用openEuler，如何参与社区贡献",
+    "detail": "详细攻略教您快速入门openEuler，指导如何参与社区贡献",
     "items": [
       {
-        "image": "/assets/image/simple.jpg",
-        "video": "http://servicecomb.apache.org"
+        "image": "/assets/image/openEuler-guide1.png",
+        "detail": "如果您想尝试使用openEuler，这里提供教程助您快速入门。",
+        "outerLink": "https://openeuler.org/zh/docs/20.03_LTS/docs/Quickstart/quick-start.html"
+      },
+     {
+        "image": "/assets/image/openEuler-guide2.png",
+        "detail": "不管您是初学者还是有经验的开发者，这里将帮助您快速参与贡献。",
+        "outerLink": "https://openeuler.org/zh/developer.html"
+      },
+     {
+        "image": "/assets/image/openEuler-guide3.png",
+        "detail": "将您的驱动、中间件和应用与openEuler进行集成及认证。",
+        "outerLink": "https://openeuler.org/zh/community/integrationandcertification.html"
+      }
+    ]
+  },
+ "videoShowBlock": {
+    "title": "视频公开课",
+    "detail": "手把手教你如何安装、使用openEuler，如何参与到openEuler社区",
+    "items": [
+      {
+        "image": "/assets/image/openEuler-vedio1.jpg",
+        "video": "https://www.bilibili.com/video/BV1it4y197KQ"
       },
       {
-        "image": "/assets/image/simple.jpg",
-        "video": "/assets/video/demo.mp4"
+        "image": "/assets/image/openEuler-vedio2.jpg",
+        "video": "https://www.bilibili.com/video/BV1vK4y1s7QG"
       },
       {
-        "image": "/assets/image/simple.jpg",
-        "video": "/assets/video/demo.mp4"
+        "image": "/assets/image/openeuler-vedio3.jpg",
+        "video": "https://www.bilibili.com/video/BV13z4y1D7mq"
+      },
+      {
+        "image": "/assets/image/openeuler-vedio4.jpg",
+        "video": "https://www.bilibili.com/video/BV1YK411H7E2"
+      },
+      {
+        "image": "/assets/image/openeuler-vedio5.jpg",
+        "video": "https://www.bilibili.com/video/BV1pK411J7R9"
+      },
+      {
+        "image": "/assets/image/openeuler-vedio6.jpg",
+        "video": "https://www.bilibili.com/video/BV1yT4y1J7nC"
       }
     ]
   },
   "advertiseShowBlock": {
     "title": "加入我们",
-    "detail": "欢迎通过以下方式认识openEuler，加入openEuler社区",
+    "detail": "欢迎用户和开发者通过以下方式认识openEuler，加入openEuler社区",
     "items": [
       {
         "logo": "/assets/image/openEuler.png",
