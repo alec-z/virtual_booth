@@ -72,8 +72,7 @@
     "detail": "欢迎点击活动图片报名",
     "items": [
       {
-        "logo": "/assets/image/openGauss-meetup.png",
-        "title": "",
+        "image": "/assets/image/openGauss-meetup.png",
         "outerLink": "https://opengauss.org/zh/events/meetup.html"
       }
     ]
