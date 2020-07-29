@@ -9,7 +9,7 @@
   },
   "mainInfo": {
     "logo": "/assets/image/MindSpore.png",
-    "simpleDetail": "MindSpore端边云全场景开源深度学习框架",
+    "simpleDetail": "一个端边云全场景开源深度学习框架",
     "detail": "MindSpore是一个开源的最佳匹配昇腾AI处理器算力的全场景深度学习框架，其提供统一的API，自动化分布式架构和源码自动微分能力，为数据科学家和算法工程师提供设计友好、运行高效的开发体验，实现更好的资源分配，推动AI软硬件应用生态繁荣发展。<br />使用MindSpore可以为用户提供简单的开发体验，只需串行表达就能实现并行训练，简化开发流程，还可以为用户提供灵活的调试模式，开发者仅需变更一行代码即可切换静态执行和动态调试模式，快速定位问题。同时，MindSpore充分发挥昇腾处理器性能，支持端边云全场景快速部署。"
   },
   "courseShowBlock": {
@@ -91,6 +91,21 @@
         "outerLink": "https://mailweb.mindspore.cn/hyperkitty/"
       },
       {
+        "logo": "/assets/image/mindspore_competition.png",
+        "title": "百万奖金池 <br />等你来战",
+        "outerLink": "https://competition.huaweicloud.com/information/1000041243/introduction?track=116"
+      },
+      {
+        "logo": "/assets/image/mindspore_zhaomu.png",
+        "title": "布道招募 <br />欢迎报名",
+        "outerLink": "https://www.mindspore.cn/evangelist"
+      },
+      {
+        "logo": "/assets/image/mindspore_bilibili.png",
+        "title": "官方B站栏目",
+        "outerLink": "https://space.bilibili.com/526894060?from=search&seid=11639910512151269700"
+      },
+      {
         "logo": "/assets/image/mindspore_qq.png",
         "title": "官方qq群",
         "outerLink": ""
@@ -113,30 +128,30 @@
       "items": [
         {
           "time": "10：00",
-          "title": "MindSpore and Webassembly",
+          "title": "MindSpore and Webassembly  【MindSpore专场session】",
           "detail": "主讲人：王辉；时间：10:10-10:40",
-          "meetingType": "Co-Located Events",
-          "outerLink": ""
+          "meetingType": "type1",
+          "outerLink": "http://www.itdks.com/Home/Act/apply?id=5239&mUid=10236"
         },
         {
           "time": "10：40",
-          "title": "eBPF assited AI Oberservability with MindSpore and Prometheus",
+          "title": "eBPF assited AI Oberservability with MindSpore and Prometheus  【MindSpore专场session】",
           "detail": "主讲人：何芦微；时间：10:40-11:20",
-          "meetingType": "Co-Located Events",
-          "outerLink": ""
+          "meetingType": "type1",
+          "outerLink": "http://www.itdks.com/Home/Act/apply?id=5239&mUid=10236"
         },
         {
           "time": "11：20",
-          "title": "Utilizing Kubeflow and Volcano for cloud native MindSpore offering",
+          "title": "Utilizing Kubeflow and Volcano for cloud native MindSpore offering  【MindSpore专场session】",
           "detail": "主讲人：刘烨东；时间：10:40-11:20",
-          "meetingType": "Co-Located Events",
-          "outerLink": ""
+          "meetingType": "type1",
+          "outerLink": "http://www.itdks.com/Home/Act/apply?id=5239&mUid=10236"
         },
         {
           "time": "15：00",
-          "title": "MindSpore助力全新云与AI原生生态系统",
+          "title": "MindSpore助力全新云与AI原生生态系统  【大会Keynote Session】",
           "detail": "主讲人：黄之鹏；时间：15:00-15:15",
-          "meetingType": "Keynote Sessions",
+          "meetingType": "type1",
           "outerLink": "http://www.itdks.com/Home/Act/apply?id=5239&mUid=10236"
         }
       ]
