@@ -172,7 +172,7 @@ export class HomeComponent implements OnInit {
         },
         {
           time: '10:50',
-          title: 'ServiceComb ToolKit加速企业应哟红微服务化改造的实践',
+          title: 'ServiceComb ToolKit加速企业应用红微服务化改造的实践',
           detail: '主讲人：郑志鹏，华为开源软件部高级工程师；时间：10:50-11:20',
           meetingType: 'type1',
           outerLink: 'http://www.itdks.com/Home/Act/apply?id=5246'
