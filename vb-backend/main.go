@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	time.Sleep(time.Duration(60)*time.Second);
+	time.Sleep(time.Duration(30)*time.Second);
 	dbm.Init()
 	RouterInit()
 }
