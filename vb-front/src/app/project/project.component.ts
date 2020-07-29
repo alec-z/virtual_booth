@@ -32,6 +32,7 @@ export class ProjectComponent implements OnInit {
     const projectName = this.route.snapshot.params['project-name'];
     this.http.get('/assets/json/' + projectName + '.json').subscribe((data) => {
       this.data = data;
+      window.scrollTo(0, 0);
     });
   }
 
