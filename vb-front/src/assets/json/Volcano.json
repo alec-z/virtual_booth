@@ -49,7 +49,13 @@
         "image": "/assets/image/volcano_kubeflow.PNG"
       },
       {
-        "image": "/assets/image/volcano_kubeGene.PNG"
+        "image": "/assets/image/volcano_flink.PNG"
+      },
+      {
+        "image": "/assets/image/volcano_horovod.PNG"
+      },
+      {
+        "image": "/assets/image/volcano_argo-stacked-color.png"
       }
     ]
   },
@@ -70,10 +76,12 @@
         "outerLink": "https://github.com/volcano-sh/volcano"
       },
       {
-        "logo": "/assets/image/volcano_weixin_assist.PNG"
+        "logo": "/assets/image/volcano_weixin_assist.PNG",
+        "title": "技术交流"
       },
       {
-        "logo": "/assets/image/volcano_container_box.PNG"
+        "logo": "/assets/image/volcano_container_box.PNG",
+        "title": "容器魔方"
       }
     ]
   },
