@@ -2,10 +2,10 @@
   "header": {
     "title": "Apache ServiceComb云端展厅",
     "subTitle": "一站式微服务解决方案",
-    "detail": "全球首个Apache开源微服务顶级项目，可解决政企数字化转型过程中开发效率低、业务上新慢、无法按需弹性等痛点。<br /><br />帮助企业、用户和开发者将应用轻松实现微服务化，加速上云，并实现对微服务的高效运维管理。",
+    "detail": "全球首个Apache开源微服务顶级项目，可解决政企数字化转型过程中<br />开发效率低、业务上新慢、无法按需弹性等痛点。帮助企业、用户和开发者<br />将应用轻松实现微服务化，加速上云，并实现对微服务的高效运维管理。",
     "logo": "/assets/image/servicecomb-logo-s.png",
     "project": "apache/service-java-chassis",
-    "banner": "/assets/image/banner2.png"
+    "banner": "/assets/image/mindspore_banner.png"
   },
   "mainInfo": {
     "logo": "/assets/image/servicecomb-logo.png",
