@@ -81,17 +81,15 @@
         "logo": "/assets/image/iconfinder_email-marketing_2944885.png",
         "title": "邮件列表",
         "outerLink": "https://openeuler.org/zh/community/mails.html"
-      }
-       {
+      },
+      {
         "logo": "/assets/image/openEuler_wechat.jpg",
-        "title": "微信公众号",
-        "outerLink": ""
+        "title": "微信公众号"
       },
       {
         "logo": "/assets/image/openEuler_group.png",
-        "title": "微信交流群",
-        "outerLink": ""
-      },
+        "title": "微信交流群"
+      }
     ]
   },
   "calendars": [
@@ -116,7 +114,7 @@
           "time": "11：20",
           "title": "Java垃圾回收技术的现状与趋势",
           "detail": "主讲人：彭成寒，13年从业经验，GC技术专家，现任华为JDK团队架构师，著有《JVM G1源码分析和调优》《新一代垃圾回收器ZGC的设计与实现》",
-          "meetingType": "type3"
+          "meetingType": "type3",
           "outerLink": "http://www.itdks.com/Home/Act/apply?id=5235&mUid=10236"
         }
       ]

@@ -25,6 +25,7 @@ import { GeneralItemComponent } from './project/general-item/general-item.compon
 import { FixNavComponent } from './_shared/fix-nav/fix-nav.component';
 import { FirstVisitComponent } from './first-visit/first-visit.component';
 import {CookieService} from 'ngx-cookie-service';
+import { Header2Component } from './_shared/header2/header2.component';
 
 
 @NgModule({
@@ -47,7 +48,8 @@ import {CookieService} from 'ngx-cookie-service';
     AdvertiseComponent,
     GeneralItemComponent,
     FixNavComponent,
-    FirstVisitComponent
+    FirstVisitComponent,
+    Header2Component
   ],
   imports: [
     BrowserModule,
