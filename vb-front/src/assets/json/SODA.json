@@ -1,11 +1,11 @@
 {
   "header": {
     "title": "SODA云端展厅",
-    "subTitle": "HUAWEI Sponsor Virtual Booth",
-    "detail": "目前华为云云端展厅包括：KubeEdge，Volcano,MindSpore，openEuler，openLooKeng，SODA，openGauss，ServiceComb",
+    "subTitle": "SODA Virtual Booth",
+    "detail": "了解来自华为的开源项目：KubeEdge, Volcano, MindSpore, <br />openEuler, openLooKeng, openGauss, SODA, ServiceComb",
     "logo": "/assets/image/SODA_logo_outline_white_hori.png",
     "project": "apache/service-java-chassis",
-    "banner": "/assets/image/banner2.png"
+    "banner": "/assets/image/mindspore_banner.png"
   },
   "mainInfo": {
     "logo": "/assets/image/SODA_logo_outline_c.png",

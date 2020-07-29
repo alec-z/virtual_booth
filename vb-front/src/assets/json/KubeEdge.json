@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "KubeEdge云端展厅",
-    "subTitle": "KubeEdge Virtual Booth",
+    "subTitle": "云原生边缘计算平台",
     "detail": "KubeEdge 是基于 Kubernetes 构建的云原生智能边缘计算平台项目，<br />是 CNCF 首个也是目前唯一提供云原生智能边缘计算能力的开源项目",
     "logo": "/assets/image/kubeedge-horizontal-white.png",
     "project": "cncf/kubeedge",

@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "Volcano云端展厅",
-    "subTitle": "HUAWEI Sponsor Virtual Booth",
+    "subTitle": "云原生批量计算平台",
     "detail": "Volcano 是 CNCF 首个基于 Kubernetes 的容器批量计算项目，<br />适用于大数据、AI、科学计算等多种高性能计算场景",
     "logo": "/assets/image/volcano-horizontal-white.png",
     "project": "apache/service-java-chassis",
