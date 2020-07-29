@@ -1,6 +1,6 @@
 .normal-project {
   width: 333px;
-  height: 650px;
+  height: 600px;
   cursor: pointer;
   .banner {
     height: 165px;
@@ -16,13 +16,15 @@
     padding-top: 35px;
     opacity: 1;
     img {
-
     }
   }
   .figure {
-    width: 242px;
-    magin-top: -20px;
+    margin-top: -20px;
     height: 80px;
+    text-align: center;
+    img {
+      width: 160px;
+    }
   }
   .title {
     margin-top: 50px;

@@ -1,7 +1,11 @@
 <div class="header" [ngStyle]="{'background-image': 'url('+ banner + ')'}">
+  <div class="top-nav" routerLink="/" *ngIf="showNav">
+     返回华为云展厅 >>
+  </div>
   <div class="top-logo">
     <img [src]="logo" style="width:196px" />
   </div>
+
   <div class="desc">
     <div class="main-title">
       {{title}}

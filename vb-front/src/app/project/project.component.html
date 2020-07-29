@@ -1,5 +1,5 @@
 <app-header [title]="data.header.title" [subTitle]="data.header.subTitle" [detail]="data.header.detail" [logo]="data.header.logo" [project]="data.header.project"
-[banner]="data.header.banner">
+[banner]="data.header.banner" showNav="true">
 </app-header>
 <div class="main-info" *ngIf="data.mainInfo">
   <app-main-info [logo]="data.mainInfo.logo" [title]="data.mainInfo.title" [simpleDetail]="data.mainInfo.simpleDetail" [detail]="data.mainInfo.detail">
@@ -34,3 +34,4 @@
 <app-show-block [title]="data.c1pnShowBlock.title" [detail]="data.c1pnShowBlock.detail" [titleOuterLink]="data.c1pnShowBlock.titleOuterLink" [detailOuterLink]="data.c1pnShowBlock.detailOuterLink"  *ngIf="data.c1pnShowBlock">
   <app-general-item *ngFor="let item of data.c1pnShowBlock.items" [image]="item.image" [outerLink]="item.outerLink" style="flex: 0 0 100%"></app-general-item>
 </app-show-block>
+<app-fix-nav></app-fix-nav>
