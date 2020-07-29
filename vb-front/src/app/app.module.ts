@@ -21,6 +21,8 @@ import { CourseComponent } from './project/course/course.component';
 import { VideoComponent } from './project/video/video.component';
 import { AdvertiseComponent } from './project/advertise/advertise.component';
 import {HttpClientModule} from '@angular/common/http';
+import { GeneralItemComponent } from './project/general-item/general-item.component';
+import { FixNavComponent } from './_shared/fix-nav/fix-nav.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import {HttpClientModule} from '@angular/common/http';
     PromoteProjectReverseComponent,
     CourseComponent,
     VideoComponent,
-    AdvertiseComponent
+    AdvertiseComponent,
+    GeneralItemComponent,
+    FixNavComponent
   ],
   imports: [
     BrowserModule,

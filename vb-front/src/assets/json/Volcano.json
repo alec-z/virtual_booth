@@ -1,0 +1,106 @@
+{
+  "header": {
+    "title": "Volcano云端展厅",
+    "subTitle": "HUAWEI Sponsor Virtual Booth",
+    "detail": "目前华为云云端展厅包括：KubeEdge，Volcano,MindSpore，openEuler，openLooKeng，openGauss，SODA，ServiceComb",
+    "logo": "/assets/image/volcano-horizontal-white.png",
+    "project": "apache/service-java-chassis",
+    "banner": "/assets/image/banner2.png"
+  },
+  "mainInfo": {
+    "logo": "/assets/image/volcano_detail_logo_with_brand_2.png",
+
+    "simpleDetail": "让算力如火山般喷薄而出",
+    "detail": "Volcano是基于Kubernetes的云原生批量计算引擎，基于华为云在AI、大数据领域的深厚业务积累，补齐了Kubernetes在面向AI、大数据、高性能计算等批量计算任务调度、编排等场景下的短板，向下支持鲲鹏、昇腾、X86等多元算力，向上使能TensorFlow、Spark、华为MindSpore等主流行业计算框架，让数据科学家和算法工程师充分享受到云原生技术所带来的高效计算与极致体验。"
+  },
+
+  "c1p1ShowBlock": {
+    "title": "系统架构",
+    "detail": "向上无缝对接多种主流计算框架，向下支持多元算力混合调度",
+    "items": [
+      {
+        "image": "/assets/image/volcano_framework.PNG"
+      }
+    ]
+  },
+  "c2p1ShowBlock": {
+    "title": "丰富的计算框架支持",
+    "detail": "面向大数据、AI、科学计算等场景，提供通用的任务调度能力和多种调度策略",
+    "items": [
+      {
+        "image": "/assets/image/volcano_Spark.PNG"
+      },
+      {
+        "image": "/assets/image/volcano_tensorflow.PNG"
+      },
+      {
+        "image": "/assets/image/volcano_pytorch.PNG"
+      },
+      {
+        "image": "/assets/image/volcano_MPI.PNG"
+      },
+      {
+        "image": "/assets/image/volcano_mindspore.PNG"
+      },
+      {
+        "image": "/assets/image/volcano_paddle.PNG"
+      },
+      {
+        "image": "/assets/image/volcano_kubeflow.PNG"
+      },
+      {
+        "image": "/assets/image/volcano_kubeGene.PNG"
+      }
+    ]
+  },
+  "advertiseShowBlock": {
+    "title": "加入我们",
+    "titleOuterLink": "https://volcano.sh/",
+    "detail": "面向不同程度开发者提供丰富的说明文档Volcano",
+    "detailOuterLink": "https://volcano.sh/",
+    "items": [
+      {
+        "logo": "/assets/image/volcano_log_without_brand.png",
+        "title": "社区官网",
+        "outerLink": "https://volcano.sh/"
+      },
+      {
+        "logo": "/assets/image/iconfinder_Internet_Line-11_1587496.png",
+        "title": "源码地址",
+        "outerLink": "https://github.com/volcano-sh/volcano"
+      },
+      {
+        "logo": "/assets/image/volcano_weixin_assist.PNG"
+      },
+      {
+        "logo": "/assets/image/volcano_container_box.PNG"
+      }
+    ]
+  },
+  "calendars": [
+    {
+      "dayStr": "07.30  星期四",
+      "items": [
+        {
+          "time": "15：40",
+          "title": "【闪电演讲】以AI和大数据为例，将批处理功能引入Kubernetes",
+          "detail": "主讲人：马达；时间：2020年7月30日（周四）15:40-15:55",
+          "meetingType": "type1",
+          "outerLink": "http://www.itdks.com/Home/Act/apply?id=5235"
+        }
+      ]
+    },
+    {
+      "dayStr": "07.31  星期五",
+      "items": [
+        {
+          "time": "17：00",
+          "title": "深入了解：Volcano",
+          "detail": "主讲人：马达，徐中虎；时间：2020年7月31日（周五）17:00-17:30",
+          "meetingType": "type3",
+          "outerLink": "http://www.itdks.com/Home/Act/apply?id=5242"
+        }
+      ]
+    }
+  ]
+}

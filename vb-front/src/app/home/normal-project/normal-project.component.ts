@@ -10,6 +10,7 @@ export class NormalProjectComponent implements OnInit {
   @Input() logoWidth: string;
   @Input() title: string;
   @Input() detail: string;
+  @Input() figure: string;
 
 
   constructor() { }

@@ -1,5 +1,6 @@
 .main-info {
-  height: 440px;
+  padding-bottom: 110px;
+  clear: both;
   padding-top: 90px;
   .left {
     width: 560px;
@@ -8,7 +9,7 @@
     .logo {
       width: 200px;
       height: 200px;
-      background-size: auto auto;
+      background-size: contain;
       background-position: center center;
       margin: 0 auto;
       background-repeat: no-repeat;

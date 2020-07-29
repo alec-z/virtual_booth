@@ -1,16 +1,19 @@
 {
   "header": {
-    "title": "KubeEdge云端展厅",
-    "subTitle": "HUAWEI Sponsor Virtual Booth",
-    "detail": "目前华为云云端展厅包括：KubeEdge，Volcano,MindSpore，openEuler，openLooKeng，SODA，openGauss，ServiceComb",
-    "logo": "/assets/image/kubeedge-horizontal-color.png",
+    "title": "Apache ServiceComb云端展厅",
+    "subTitle": "一站式微服务解决方案",
+    "detail": "全球首个Apache开源微服务顶级项目，可解决政企数字化转型过程中开发效率低、业务上新慢、无法按需弹性等痛点。<br /><br />帮助企业、用户和开发者将应用轻松实现微服务化，加速上云，并实现对微服务的高效运维管理。",
+    "logo": "/assets/image/servicecomb-logo-s.png",
     "project": "apache/service-java-chassis",
     "banner": "/assets/image/banner2.png"
   },
   "mainInfo": {
-    "logo": "/assets/image/kubeedge-icon-color.png",
-    "title": "KubeEdge",
-    "simpleDetail": "一个使能边缘计算的开放平台"
+    "logo": "/assets/image/servicecomb-logo.png",
+    "simpleDetail": "一站式微服务解决方案",
+    "detail":  "ServiceComb 包括应用框架代码生成，服务注册发现、服务配置管理、服务监控、服务调用追踪、多通信协议支持等功能，具有服务化契约增强、响应式编程范式及多语言 SDK 支持等优势特性。<br /><br />ServiceComb 基于开放的架构，不仅可以支持开发者根据自身业务需求定制业务插件，而且还兼容多种业界流行的微服务框架。"
+
+
+
   },
   "courseShowBlock": {
     "title": "通用教程",
@@ -50,41 +53,41 @@
   },
   "advertiseShowBlock": {
     "title": "加入我们",
-    "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
+    "detail": "Apache ServiceComb社区热烈的欢迎您的关注和贡献",
     "items": [
       {
-        "logo": "/assets/image/kubeedge-icon-color.png",
+        "logo": "/assets/image/servicecomb-logo.png",
         "title": "社区官网",
         "outerLink": "https://servicecomb.apache.org"
       },
       {
         "logo": "/assets/image/iconfinder_Internet_Line-11_1587496.png",
         "title": "源码地址",
-        "outerLink": "https://servicecomb.apache.org"
+        "outerLink": "https://github.com/apache?q=servicecomb&type=&language=g"
       },
       {
         "logo": "/assets/image/iconfinder_email-marketing_2944885.png",
         "title": "邮件列表",
-        "outerLink": "https://servicecomb.apache.org"
+        "outerLink": "http://servicecomb.apache.org/cn/developers/subscribe-mail-list/"
       }
     ]
   },
   "calendars": [
     {
-      "dayStr": "07.20  星期三",
+      "dayStr": "08.01  星期六",
       "items": [
         {
-          "time": "17：00",
-          "title": "会议session",
-          "detail": "【JustinMind培训赋能第二期】主讲人：谢巧华；胡福；时间：2020年7月21日（周二）19:00-21:00；地点：U8-2-A08R；其他地域语音。",
+          "time": "10:50",
+          "title": "ServiceComb ToolKit 加速企业应用微服务化改造实践",
+          "detail": "主讲人：郑志鹏  时间：09:30-10:00",
           "meetingType": "type1",
           "outerLink": ""
         },
         {
-          "time": "17：00",
-          "title": "会议session",
-          "detail": "【JustinMind培训赋能第二期】主讲人：谢巧华；胡福；时间：2020年7月21日（周二）19:00-21:00；地点：U8-2-A08R；其他地域语音。",
-          "meetingType": "type2",
+          "time": "11:30",
+          "title": "通过统一微服务治理平台整合Spring Cloud、ServiceComb与ServiceMesh",
+          "detail": "主讲人：田晓亮  时间：10:10-10:40",
+          "meetingType": "type1",
           "outerLink": ""
         }
       ]

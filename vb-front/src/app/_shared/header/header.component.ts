@@ -12,6 +12,7 @@ export class HeaderComponent implements OnInit {
   @Input() logo: string;
   @Input() banner = 'linear-gradient(148deg, #A509D8 0%, rgba(88,121,224,0.00) 100%);';
   @Input() project: string;
+  @Input() showNav = false;
   constructor() { }
 
   ngOnInit(): void {

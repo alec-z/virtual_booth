@@ -12,6 +12,14 @@
     height: 30px;
     line-height: 30px;
     text-align: center;
+    a {
+      font-family: FZLTZHJW--GB1-0;
+      font-size: 30px;
+      color: #333333;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+    }
   }
   .detail {
     font-family: FZLTHK--GBK1-0;
@@ -20,11 +28,20 @@
     margin-top: 34px;
     line-height: 24px;
     text-align: center;
+    a {
+      font-family: FZLTHK--GBK1-0;
+      font-size: 18px;
+      color: #666666;
+      margin-top: 34px;
+      line-height: 24px;
+      text-align: center;
+    }
   }
   .block {
     margin-top: 50px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
   }
 }

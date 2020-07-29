@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
   .inner {
     height: 50px;
     display: flex;
@@ -20,10 +21,10 @@
       color: #333333;
     }
     .logo{
-      width: 55px;
-      margin-right: 20px;
+      max-width: 110px;
+      margin-right: 15px;
       img {
-        width: 55px;
+        max-width: 110px;
       }
     }
   }
