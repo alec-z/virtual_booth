@@ -2,11 +2,22 @@ version: '3'
 services:
   web:
     image:
-      aleczheng/vb-front
+      registry.cn-shenzhen.aliyuncs.com/aleczheng/vb-front
     ports:
       - '80:80'
     environment:
       - NGINX_BACK_END=backend
   backend:
     image:
-      aleczheng/vb-backend
+      registry.cn-shenzhen.aliyuncs.com/aleczheng/vb-backend
+  database:
+    image: 'mysql:5'
+    environment:
+      MYSQL_ROOT_PASSWORD: 'h12345'
+      MYSQL_DATABASE: 'visit'
+      MYSQL_ROOT_HOST: '%'
+    command: ['--default-authentication-plugin=mysql_native_password', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']
+    ports:
+      - 3306:3306
+    volumes:
+      - /root/mysqldir:/var/lib/mysql

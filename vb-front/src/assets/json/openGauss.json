@@ -1,11 +1,11 @@
 {
   "header": {
     "title": "openGauss云端展厅",
-    "subTitle": "HUAWEI Sponsor Virtual Booth",
-    "detail": "目前华为云云端展厅包括：KubeEdge，Volcano，MindSpore，openEuler，openGauss，openLooKeng，SODA，ServiceComb",
+    "subTitle": "openGauss Virtual Booth",
+    "detail": "了解来自华为的开源项目：KubeEdge, Volcano, MindSpore, <br />openEuler, openLooKeng, openGauss, SODA, ServiceComb",
     "logo": "/assets/image/openGauss-icon.png",
     "project": "apache/service-java-chassis",
-    "banner": "/assets/image/banner2.png"
+    "banner": "/assets/image/mindspore_banner.png"
   },
   "mainInfo": {
     "logo": "/assets/image/openGauss.png",
@@ -72,8 +72,7 @@
     "detail": "欢迎点击活动图片报名",
     "items": [
       {
-        "logo": "/assets/image/openGauss-meetup.png",
-        "title": "",
+        "image": "/assets/image/openGauss-meetup.png",
         "outerLink": "https://opengauss.org/zh/events/meetup.html"
       }
     ]

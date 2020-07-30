@@ -1,0 +1,26 @@
+<div class="header" [ngStyle]="{'background-image': 'url('+ banner + ')'}">
+  <div class="top-nav" routerLink="/" *ngIf="showNav">
+    << 返回华为云展厅
+  </div>
+  <div class="top-logo">
+    <img [src]="logo" style="width:196px" />
+  </div>
+
+  <div class="desc">
+    <div class="main-title">
+      {{title}}
+    </div>
+    <div class="main-sub-title">
+      {{subTitle}}
+    </div>
+    <div class="actions" *ngIf="project">
+    </div>
+    <div class="detail" [innerHTML]="detail | tohtml">
+
+    </div>
+    <div class="mainLink">
+      <a href="https://www.itdks.com/Topic/detail?id=365" target="_blank">峰会全程直播中 >></a>
+    </div>
+  </div>
+</div>
+

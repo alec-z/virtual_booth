@@ -27,6 +27,24 @@
       "hostname": "backend",
       "memory": 128,
       "essential": false
+    },
+    {
+      "name": "database",
+      "image": "mysql:5",
+      "hostname": "database",
+      "memory": 500,
+      "essential": false,
+      "environment": [
+        {
+          "name": "MYSQL_ROOT_PASSWORD",
+          "value": "h12345"
+        },
+        {
+          "name": "MYSQL_ROOT_PASSWORD",
+          "value": "visit"
+        }
+      ]
     }
   ]
 }
+

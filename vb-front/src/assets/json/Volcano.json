@@ -1,15 +1,14 @@
 {
   "header": {
     "title": "Volcano云端展厅",
-    "subTitle": "HUAWEI Sponsor Virtual Booth",
-    "detail": "目前华为云云端展厅包括：KubeEdge，Volcano,MindSpore，openEuler，openLooKeng，openGauss，SODA，ServiceComb",
+    "subTitle": "云原生批量计算平台",
+    "detail": "Volcano 是 CNCF 首个基于 Kubernetes 的容器批量计算项目，<br />适用于大数据、AI、科学计算等多种高性能计算场景",
     "logo": "/assets/image/volcano-horizontal-white.png",
     "project": "apache/service-java-chassis",
-    "banner": "/assets/image/banner2.png"
+    "banner": "/assets/image/mindspore_banner.png"
   },
   "mainInfo": {
-    "logo": "/assets/image/volcano_detail_logo_with_brand_2.png",
-
+    "logo": "/assets/image/volcano-stacked-color.png",
     "simpleDetail": "让算力如火山般喷薄而出",
     "detail": "Volcano是基于Kubernetes的云原生批量计算引擎，基于华为云在AI、大数据领域的深厚业务积累，补齐了Kubernetes在面向AI、大数据、高性能计算等批量计算任务调度、编排等场景下的短板，向下支持鲲鹏、昇腾、X86等多元算力，向上使能TensorFlow、Spark、华为MindSpore等主流行业计算框架，让数据科学家和算法工程师充分享受到云原生技术所带来的高效计算与极致体验。"
   },
@@ -19,7 +18,7 @@
     "detail": "向上无缝对接多种主流计算框架，向下支持多元算力混合调度",
     "items": [
       {
-        "image": "/assets/image/volcano_framework.PNG"
+        "image": "/assets/image/volcano_framework.png"
       }
     ]
   },
@@ -28,35 +27,23 @@
     "detail": "面向大数据、AI、科学计算等场景，提供通用的任务调度能力和多种调度策略",
     "items": [
       {
-        "image": "/assets/image/volcano_Spark.PNG"
+        "image": "/assets/image/volcano-framework-1.jpg"
       },
       {
-        "image": "/assets/image/volcano_tensorflow.PNG"
+        "image": "/assets/image/volcano-framework-2.jpg"
       },
       {
-        "image": "/assets/image/volcano_pytorch.PNG"
+        "image": "/assets/image/volcano-framework-3.jpg"
       },
       {
-        "image": "/assets/image/volcano_MPI.PNG"
-      },
-      {
-        "image": "/assets/image/volcano_mindspore.PNG"
-      },
-      {
-        "image": "/assets/image/volcano_paddle.PNG"
-      },
-      {
-        "image": "/assets/image/volcano_kubeflow.PNG"
-      },
-      {
-        "image": "/assets/image/volcano_kubeGene.PNG"
+        "image": "/assets/image/volcano-framework-4.jpg"
       }
     ]
   },
   "advertiseShowBlock": {
     "title": "加入我们",
     "titleOuterLink": "https://volcano.sh/",
-    "detail": "面向不同程度开发者提供丰富的说明文档Volcano",
+    "detail": "欢迎加入Volcano社区，共同构建地表最强批量调度能力",
     "detailOuterLink": "https://volcano.sh/",
     "items": [
       {
@@ -70,10 +57,22 @@
         "outerLink": "https://github.com/volcano-sh/volcano"
       },
       {
-        "logo": "/assets/image/volcano_weixin_assist.PNG"
+        "logo": "/assets/image/iconfinder_email-marketing_2944885.png",
+        "title": "邮件列表",
+        "outerLink": "https://groups.google.com/forum/#!forum/volcano-sh"
       },
       {
-        "logo": "/assets/image/volcano_container_box.PNG"
+        "logo": "/assets/image/volcano_weekmeetup.PNG",
+        "title": "交流例会",
+        "outerLink": "https://zoom.us/j/193601252"
+      },
+      {
+        "logo": "/assets/image/volcano_weixin_assist.PNG",
+        "title": "技术讨论"
+      },
+      {
+        "logo": "/assets/image/volcano_container_box.PNG",
+        "title": "容器魔方"
       }
     ]
   },

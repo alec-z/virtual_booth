@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/alec-z/interests-back/api"
+	"github.com/alec-z/vb_backend/api"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 )
@@ -15,10 +15,7 @@ func RouterInit() {
 	e.Use(middleware.Recover())
 
 	// Routes
-	e.POST("/api/cal", api.Calculate)
-
-	e.POST("/api/cal_item", api.CalculateItem)
-
+	e.GET("/api/visits", api.CreateVisit)
 	// Start server
 	e.Logger.Info(e.Start(":3000"))
 }

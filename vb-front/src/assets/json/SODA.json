@@ -1,22 +1,21 @@
 {
   "header": {
     "title": "SODA云端展厅",
-    "subTitle": "HUAWEI Sponsor Virtual Booth",
-    "detail": "目前华为云云端展厅包括：KubeEdge，Volcano,MindSpore，openEuler，openLooKeng，SODA，openGauss，ServiceComb",
+    "subTitle": "SODA Virtual Booth",
+    "detail": "了解来自华为的开源项目：KubeEdge, Volcano, MindSpore, <br />openEuler, openLooKeng, openGauss, SODA, ServiceComb",
     "logo": "/assets/image/SODA_logo_outline_white_hori.png",
     "project": "apache/service-java-chassis",
-    "banner": "/assets/image/banner2.png"
+    "banner": "/assets/image/mindspore_banner.png"
   },
   "mainInfo": {
     "logo": "/assets/image/SODA_logo_outline_c.png",
     "title": "SODA",
-    "short-detail": "开放智能的数据自治管理平台",
-    "simpleDetail": "SODA是Linux基金会在数据与存储领域的第一个子基金会，由华为联合业界领先的数据与存储供应商，以及全球各行业的优秀企业共同建立，旨在通过智能开放的数据自治标准化建设，帮助用户应对数据基础设施云化转型过程中的各种挑战。",
+    "simpleDetail": "开放智能的数据自治管理平台",
     "detail": "SODA是Linux基金会在数据与存储领域的第一个子基金会，由华为联合业界领先的数据与存储供应商，以及全球各行业的优秀企业共同建立，旨在通过智能开放的数据自治标准化建设，帮助用户应对数据基础设施云化转型过程中的各种挑战。<br />华为，中国联通，建信金科，鼎甲，Intel，TOYOTA，YAHOO! JAPAN，NTT等21家全球知名企业目前均为SODA基金会成员。<br />SODA社区主要包含北向插件项目（NBP），存储控制器项目（OpenSDS），多云项目（Multi-Cloud）及YIG等多个项目。其中，NBP用于支持SODA存储服务于云及应用框架进行北向对接；OpenSDS用于同一管理本地数据中心和云端的块、文件、对象存储；Multi-Cloud是基于策略的多云数据控制器，支持跨云数据流动以及数据生命周期管理；YIG是中国联通通过SODA孵化计划加入基金会的第一个项目。"
   },
   "advertiseShowBlock": {
-    "title": "通用信息模块",
-    "detail": "提供社区信息",
+    "title": "联系我们",
+    "detail": "社区联系方式",
     "items": [
       {
         "logo": "/assets/image/SODA_logo_outline_c.png",

@@ -2,10 +2,10 @@
   "header": {
     "title": "Apache ServiceComb云端展厅",
     "subTitle": "一站式微服务解决方案",
-    "detail": "全球首个Apache开源微服务顶级项目，可解决政企数字化转型过程中开发效率低、业务上新慢、无法按需弹性等痛点。<br /><br />帮助企业、用户和开发者将应用轻松实现微服务化，加速上云，并实现对微服务的高效运维管理。",
+    "detail": "全球首个Apache开源微服务顶级项目，可解决政企数字化转型过程中<br />开发效率低、业务上新慢、无法按需弹性等痛点。帮助企业、用户和开发者<br />将应用轻松实现微服务化，加速上云，并实现对微服务的高效运维管理。",
     "logo": "/assets/image/servicecomb-logo-s.png",
     "project": "apache/service-java-chassis",
-    "banner": "/assets/image/banner2.png"
+    "banner": "/assets/image/mindspore_banner.png"
   },
   "mainInfo": {
     "logo": "/assets/image/servicecomb-logo.png",
@@ -16,38 +16,41 @@
 
   },
   "courseShowBlock": {
-    "title": "通用教程",
-    "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
+    "title": "入门教程",
+    "detail": "面向入门开发者提供多种场景下的使用教程，通过细分步骤指导如何使用ServiceComb",
     "items": [
       {
-        "image": "/assets/image/simple.jpg",
-        "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"
+        "image": "/assets/image/sc-quickstart.jpg",
+        "detail": "Java-Chassis 入门指南",
+        "outerLink": "http://servicecomb.apache.org/cn/docs/products/java-chassis/quick-start/"
       },
       {
-        "image": "/assets/image/simple.jpg",
-        "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"
+        "image": "/assets/image/sc-quickstart3.png",
+        "detail": "一键式20分钟开发\"体质指数\"微服务应用",
+        "outerLink": "https://devstar.developer.huaweicloud.com/devstar/code-templates/1b83770cef7c4a3ba0d658c993651bf8"
       },
       {
-        "image": "/assets/image/simple.jpg",
-        "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore"
+        "image": "/assets/image/sc-quickstart4.png",
+        "detail": "使用mesher支持多语言多技术栈接入servicecomb微服务体系",
+        "outerLink": "http://servicecomb.apache.org/cn/docs/products/mesher/quick-start/"
       }
     ]
   },
   "videoShowBlock": {
     "title": "最新视频",
-    "detail": "面向不同程度开发者提供多种场景下的使用教程，通过细分步骤指导如何使用MindSpore",
+    "detail": "快速直观了解ServiceComb",
     "items": [
       {
-        "image": "/assets/image/simple.jpg",
-        "video": "http://servicecomb.apache.org"
+        "image": "/assets/image/sc_video1.jpg",
+        "video": "https://developer.huaweicloud.com/exhibition/apache-servicecomb.html"
       },
       {
-        "image": "/assets/image/simple.jpg",
-        "video": "/assets/video/demo.mp4"
+        "image": "/assets/image/sc_video2.jpg",
+        "video": "https://developer.huaweicloud.com/exhibition/apache-servicecomb.html"
       },
       {
-        "image": "/assets/image/simple.jpg",
-        "video": "/assets/video/demo.mp4"
+        "image": "/assets/image/sc_video0.jpg",
+        "video": "https://www.bilibili.com/video/BV1b5411a7Kr?pop_share=1"
       }
     ]
   },
@@ -81,14 +84,14 @@
           "title": "ServiceComb ToolKit 加速企业应用微服务化改造实践",
           "detail": "主讲人：郑志鹏  时间：09:30-10:00",
           "meetingType": "type1",
-          "outerLink": ""
+          "outerLink": "https://www.itdks.com/Home/Act/apply?id=5246"
         },
         {
           "time": "11:30",
           "title": "通过统一微服务治理平台整合Spring Cloud、ServiceComb与ServiceMesh",
           "detail": "主讲人：田晓亮  时间：10:10-10:40",
           "meetingType": "type1",
-          "outerLink": ""
+          "outerLink": "https://www.itdks.com/Home/Act/apply?id=5246"
         }
       ]
     }

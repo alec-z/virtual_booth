@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {CookieService} from 'ngx-cookie-service';
+import {HttpClient} from '@angular/common/http';
 
 @Component({
   selector: 'app-home',
@@ -84,25 +86,32 @@ export class HomeComponent implements OnInit {
       dayStr: 'MindSpore与云原生专场 (07.31 星期五 10:00 - 12:00)',
       items: [
         {
-          time: '10:00',
-          title: 'MindSpre和WebAssembly',
-          detail: '主讲人：王辉，华为MindSpore高级工程师；时间：10:00-10:40',
-          meetingType: 'type1',
-          outerLink: 'http://www.itdks.com/Home/Act/apply?id=5239'
+          "time": "10:00",
+          "title": "MindSpore and Webassembly  【MindSpore专场session】",
+          "detail": "主讲人：王辉；时间：10:00-10:40",
+          "meetingType": "type1",
+          "outerLink": "http://www.itdks.com/Home/Act/apply?id=5239&mUid=10236"
         },
         {
-          time: '10:40',
-          title: '如何进一步加强容器安全启动',
-          detail: '主讲人：卢景晓，华为iSula容器团队高级工程师；时间：10:40-11:20',
-          meetingType: 'type1',
-          outerLink: 'http://www.itdks.com/Home/Act/apply?id=5239'
+          "time": "10:40",
+          "title": "eBPF assited AI Oberservability with MindSpore and Prometheus  【MindSpore专场session】",
+          "detail": "主讲人：何芦微；时间：10:40-11:20",
+          "meetingType": "type1",
+          "outerLink": "http://www.itdks.com/Home/Act/apply?id=5239&mUid=10236"
         },
         {
-          time: '11:20',
-          title: 'Java垃圾回收技术的现状与趋势',
-          detail: '主讲人：彭成寒，华为JDK团队架构师；时间：11:20-12:00',
-          meetingType: 'type1',
-          outerLink: 'http://www.itdks.com/Home/Act/apply?id=5239'
+          "time": "11:20",
+          "title": "Utilizing Kubeflow and Volcano for cloud native MindSpore offering  【MindSpore专场session】",
+          "detail": "主讲人：刘烨东；时间：11:20-12:00",
+          "meetingType": "type1",
+          "outerLink": "http://www.itdks.com/Home/Act/apply?id=5239&mUid=10236"
+        },
+        {
+          "time": "15:00",
+          "title": "MindSpore助力全新云与AI原生生态系统  【大会Keynote Session】",
+          "detail": "主讲人：黄之鹏；时间：15:00-15:15",
+          "meetingType": "type1",
+          "outerLink": "http://www.itdks.com/Home/Act/apply?id=5239&mUid=10236"
         }
       ]
     },
@@ -172,7 +181,7 @@ export class HomeComponent implements OnInit {
         },
         {
           time: '10:50',
-          title: 'ServiceComb ToolKit加速企业应哟红微服务化改造的实践',
+          title: 'ServiceComb ToolKit加速企业应用红微服务化改造的实践',
           detail: '主讲人：郑志鹏，华为开源软件部高级工程师；时间：10:50-11:20',
           meetingType: 'type1',
           outerLink: 'http://www.itdks.com/Home/Act/apply?id=5246'
@@ -207,9 +216,17 @@ export class HomeComponent implements OnInit {
     }
   ];
 
-  constructor() { }
+  constructor(private cookieService: CookieService, private http: HttpClient) { }
 
   ngOnInit(): void {
+    const phone = this.cookieService.get('phone');
+    if (phone !== undefined && phone != null && phone !== '') {
+      this.http.get('/api/visits?project=home&phone=' + phone).subscribe();
+    }
+  }
+
+  goToLink(url: string): void {
+    window.open(url, '_blank');
   }
 
 }

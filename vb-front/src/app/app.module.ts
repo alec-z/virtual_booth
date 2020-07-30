@@ -23,6 +23,10 @@ import { AdvertiseComponent } from './project/advertise/advertise.component';
 import {HttpClientModule} from '@angular/common/http';
 import { GeneralItemComponent } from './project/general-item/general-item.component';
 import { FixNavComponent } from './_shared/fix-nav/fix-nav.component';
+import { FirstVisitComponent } from './first-visit/first-visit.component';
+import {CookieService} from 'ngx-cookie-service';
+import { Header2Component } from './_shared/header2/header2.component';
+
 
 @NgModule({
   declarations: [
@@ -43,7 +47,9 @@ import { FixNavComponent } from './_shared/fix-nav/fix-nav.component';
     VideoComponent,
     AdvertiseComponent,
     GeneralItemComponent,
-    FixNavComponent
+    FixNavComponent,
+    FirstVisitComponent,
+    Header2Component
   ],
   imports: [
     BrowserModule,
@@ -52,7 +58,7 @@ import { FixNavComponent } from './_shared/fix-nav/fix-nav.component';
     MatButtonModule,
     HttpClientModule,
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
