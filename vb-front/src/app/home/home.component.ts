@@ -87,29 +87,22 @@ export class HomeComponent implements OnInit {
       items: [
         {
           "time": "10:00",
-          "title": "MindSpore and Webassembly  【MindSpore专场session】",
-          "detail": "主讲人：王辉；时间：10:00-10:40",
+          "title": "MindSpore与Webassembly",
+          "detail": "主讲人：王辉，华为MindSpore高级工程师；时间：10:00-10:40",
           "meetingType": "type1",
           "outerLink": "http://www.itdks.com/Home/Act/apply?id=5239&mUid=10236"
         },
         {
           "time": "10:40",
-          "title": "eBPF assited AI Oberservability with MindSpore and Prometheus  【MindSpore专场session】",
-          "detail": "主讲人：何芦微；时间：10:40-11:20",
+          "title": "基于eBPF结合Prometheus与MindSpore实现AI kernel可观测",
+          "detail": "主讲人：何芦微，华为MindSpore高级工程师；时间：10:40-11:20",
           "meetingType": "type1",
           "outerLink": "http://www.itdks.com/Home/Act/apply?id=5239&mUid=10236"
         },
         {
           "time": "11:20",
-          "title": "Utilizing Kubeflow and Volcano for cloud native MindSpore offering  【MindSpore专场session】",
-          "detail": "主讲人：刘烨东；时间：11:20-12:00",
-          "meetingType": "type1",
-          "outerLink": "http://www.itdks.com/Home/Act/apply?id=5239&mUid=10236"
-        },
-        {
-          "time": "15:00",
-          "title": "MindSpore助力全新云与AI原生生态系统  【大会Keynote Session】",
-          "detail": "主讲人：黄之鹏；时间：15:00-15:15",
+          "title": "基于Kubeflow和Volcano拓展MindSpore云原生能力",
+          "detail": "主讲人：刘烨东，华为MindSpore高级工程师；时间：11:20-12:00",
           "meetingType": "type1",
           "outerLink": "http://www.itdks.com/Home/Act/apply?id=5239&mUid=10236"
         }
